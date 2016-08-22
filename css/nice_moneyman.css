@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+
+body { background-color: #fbfbfa;}
+/*选择个人用户或者机构用户*/
+.nice_moneyman_1 { width: 100%; height: 590px; padding-top: 110px; background: url(../imgs/nice_moneyman/nice_moneyman_bg.jpg) no-repeat center center;}
+.nice_moneyman_1 .title { height: 310px; padding: 20px 50px 0; background-color: #ff8447;}
+.nice_moneyman_1 .title p { color: #FFFFFF; font:20px/2 "microsoft yahei";}
+.nice_moneyman_1 .title .people { line-height: 80px;}
+.nice_moneyman_1 .title .main { text-indent: 2em; margin-bottom: 20px;}
+.nice_moneyman_1 h4 { font:20px/5 "microsoft yahei"; color: #363636; text-align: center;}
+.nice_moneyman_1 .bottom { width: 600px; height: 60px; margin: 0 auto;}
+.nice_moneyman_1 .bottom a { display: block; width: 258px; height: 58px; border: 1px solid #e0cb76; background-color: #ff8447;}
+.nice_moneyman_1 .bottom a p { padding-left: 90px; font:20px/60px "microsoft yahei"; color: #FFFFFF; background: url(../imgs/nice_moneyman/nice_moneyman_per.png) no-repeat 50px center;}
+.nice_moneyman_1 .bottom .even p { background-image: url(../imgs/nice_moneyman/nice_moneyman_team.png);}
+
+
+/*合格投资者认定*/
+.nice_moneyman_2 { width: 1200px; height: 700px; padding-top: 80px; background-color: #FFFFFF; margin: 0 auto;}
+.nice_moneyman_2 h3 { font: 20px/3 "microsoft yahei"; color: #ffc73e; text-align: center;}
+.nice_moneyman_2 .main { width: 920px; height: 500px; padding: 30px 10px 0; border-top: 1px solid #ffc73e; margin: 0 auto;}
+.nice_moneyman_2 .title { font:20px/2 "microsoft yahei"; color: #323232;}
+.nice_moneyman_2 .main .money { width: 830px;}
+.nice_moneyman_2 .main .money p { font:18px/2 "microsoft yahei"; color: #323232; margin: 40px 0;}
+.nice_moneyman_2 .main .money p.first { margin: 60px 0 40px;}
+.nice_moneyman_2 .main .money p input { display: inline-block; width: 16px; height: 16px; margin-right: 10px; vertical-align: middle; margin-top: -2px; cursor: pointer;}
+.nice_moneyman_2 .main .money p label { cursor: pointer;}
+.nice_moneyman_2 .main a { display: block; width: 420px; height: 50px; margin: 100px auto 0; background-color: #ffc73e; font:24px/50px "microsoft yahei"; text-align: center; color: #FFFFFF;}
+
+
+/*问卷*/
+.nice_moneyman_into { width: 930px; height: 5700px; padding: 20px 135px 0; background-color: #FFFFFF; margin: 0 auto;}
+.nice_moneyman_into_team { height: 4280px;}
+.nice_moneyman_into .nice_into_head h2 { font: 20px/6 "microsoft yahei"; color: #ffc73e; text-align: center;}
+.nice_moneyman_into .nice_into_head .main { padding: 20px 0 30px; border-top: 1px solid #ffc73e; border-bottom: 1px solid #d3d3d3;}
+.nice_moneyman_into .nice_into_head p { font: 14px/3 "microsoft yahei"; color: #787878;}
+.nice_moneyman_into .nice_into_main .page { padding: 20px 0; border-bottom: 1px solid #d3d3d3;}
+.nice_moneyman_into .nice_into_main h3 { font:500 18px/3 "microsoft yahei"; color: #323232;}
+.nice_moneyman_into .nice_into_main p { font:16px/3 "microsoft yahei"; color: #323232; vertical-align: middle;}
+.nice_moneyman_into .nice_into_main p.active { color: #ffc73e;}
+.nice_moneyman_into .nice_into_main p input { cursor: pointer;}
+.nice_moneyman_into .nice_into_main p label { cursor: pointer;}
+.nice_moneyman_into .nice_btn { display: block; width: 420px; height: 50px; border: none; outline: none; background-color: #ffc73e; font: 24px/50px "microsoft yahei"; text-align: center; color: #FFFFFF; cursor: pointer; margin: 100px auto;}
+
+/*结果*/
+.nice_moneyman_type { width: 1140px; height: 600px; padding: 50px 30px 0; background-color: #FFFFFF; margin: 0 auto}
+.nice_moneyman_type .head { width: 400px; height: 130px; margin: 0 auto;}
+.nice_moneyman_type .head h3 { font:bold 24px/130px "microsoft yahei"; color: #ffc73e; background: url(../imgs/nice_moneyman/nice_moneyman_type.png) no-repeat left center; padding-left: 40px;}
+.nice_moneyman_type .type { display: block; width: 235px; height: 50px; border-radius: 3px; font:bold 22px/50px "microsoft yahei"; text-align: center; color: #FFFFFF; background-color: #ffc73e; margin: 0 auto;}
+.nice_moneyman_type .tip {font:20px/4 "microsoft yahei"; text-align: center; color: #ffcd52;}
+.nice_moneyman_type .nice_footer { padding: 30px 210px; border-top: 1px solid #ffcd52; text-align: center;}
+.nice_moneyman_type .nice_footer .tit {font: 14px/2 "microsoft yahei"; color: #666666; letter-spacing: 1px; text-align: left; margin-bottom: 50px;}
+.nice_moneyman_type .nice_footer .again {font:20px/3 "microsoft yahei"; color: #ffc842;}
+.nice_moneyman_type .nice_footer .into { display: block; width: 420px; height: 50px; font:24px/50px "microsoft yahei"; text-align: center; color: #FFFFFF; background-color: #ffc73e; margin: 0 auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

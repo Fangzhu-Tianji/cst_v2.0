@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/*Css ��ʼ��*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5,h6, form, fieldset, legend, img { margin:0; padding:0;}
+
+/*����Щ�ı�ǩ����߾඼��0*/
+fieldset, img ,input{ border:none;}
+input{outline: none;}
+img{display: block;}
+ul,ol,li{ list-style:none; }
+body { color:#fff;}
+
+/*���*/
+.clearfix:after { content:"."; display:block; height:0;visibility:hidden; clear:both; }
+.clearfix { zoom:1; }
+.clearit { clear:both; height:0; font-size:0;overflow:hidden;}
+
+/*a��ǩ*/
+a{ color:#666; text-decoration:none; }
+a:focus { text-decoration:none; }
+a:link { text-decoration:none; } /* δ���ʵ����� */
+a:visited { text-decoration:none; } /* �ѷ��ʵ����� */
+a:hover { text-decoration:none; } /* ��껮������ */
+a:active { text-decoration:none; } /* ��ѡ�е����� */
+
+body{font-size:14px; font-family: "Microsoft YaHei", Helvetica, Arial, "Segoe UI", "Lucida Grande", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", "FontAwesome", sans-serif;}
+table{border-collapse:collapse;border-spacing:0;}
+p{word-wrap:break-word;}

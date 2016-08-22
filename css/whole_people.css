@@ -1,0 +1,259 @@
+@charset "utf-8";
+
+/*==================================  全民理财师 八大支持     ===========================*/
+/*公共*/
+.whole_people_head { height: 120px; padding-top: 50px;}
+.whole_people_head .tit { width: 270px; height: 70px; border-bottom: 2px solid #FFFFFF; margin: 0 auto;}
+.whole_people_head .tit h2 { width: 160px; font: 400 36px/70px "microsoft yahei"; color: #FFFFFF; border-bottom: 2px solid #ffed75; text-align: center; margin: 0 auto;}
+.whole_people_head p { font:300 20px/2 "microsoft yahei"; color: #FFFFFF; text-align: center;}
+	/*了解详情*/
+.whole_people_btn { display: block;text-align: center; margin: 0 auto;}
+.whole_people_btn span { font: 20px/50px "microsoft yahei"; color: #FFFFFF;}
+.whole_people_btn1{
+	width: 190px;
+	height: 50px;
+	/* background-color: #2a68a8; */
+	color: rgba(255,255,255,1);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	position: relative;
+	border: 1px solid rgba(255,255,255,0.5);
+	overflow: hidden;
+}
+.whole_people_btn1 span{
+	z-index: 2;	
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;	
+}
+.whole_people_btn1::before{
+	content: '';
+	position: absolute;
+	top: 50px;
+	left: -5px;
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 190px solid rgba(255,255,255,0.25);
+	z-index: 1;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.whole_people_btn1::after{
+	content: '';
+	position: absolute;
+	top: 50px;
+	left: -5px;
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 190px solid rgba(255,255,255,0.25);
+	z-index: 1;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.whole_people_btn1::after{
+	-webkit-transition-delay: 0.2s; /* Safari */
+    transition-delay: 0.2s;
+}
+.whole_people_btn1:hover::before{
+	opacity: 1;
+	-webkit-transform: translate(0px,-190px);
+	transform: translate(0px,-190px);	
+}
+.whole_people_btn1:hover::after{
+	opacity: 1;
+	-webkit-transform: translate(0px,-150px);
+	transform: translate(0px,-150px);	
+}
+
+/*全民理财师导航*/
+.whole_people_nav { width: 100%; height: 42px; background-color: #FFFFFF; border-bottom: 2px solid #ffc73e; }
+.whole_people_nav_container { width: 1160px; margin: 0 auto;}
+.whole_people_nav_container li { float: left; position: relative;}
+.whole_people_nav_container li a { display: block; padding: 0 40px; font: 16px/42px "microsoft yahei"; color: #555555;}
+.whole_people_nav_container li a:hover { color: #ffc73e; }
+.whole_people_nav_container li .list {  position: absolute; left: 65px; bottom: 0; width:0; height:0; border:6px solid #ffc73e; border-color: transparent transparent #ffc73e transparent; display: none;}
+.whole_people_nav_container li .active { color: #ffc73e; display: block;}
+
+.whole_people_banner { width: 100%; min-width: 1200px; height: 400px; background: url(../imgs/whole_people/whole_people_banner.jpg) no-repeat top center;}
+
+/*全民理财师-八大支持*/
+.whole_people_ba { width: 100%; height: 600px; background-color: #FFFFFF;}
+.whole_people_ba .ba_in { width: 1140px; margin: 0 auto;}
+.whole_people_ba .txt { width: 380px; }
+.whole_people_ba .txt h2 { font-size: 44px; color: #5f5f5f; margin-top: 150px;}
+.whole_people_ba .txt h3 { font: 24px/3 "microsoft yahei"; color: #5f5f5f; margin-bottom: 10px;}
+.whole_people_ba .txt p { font: 20px/1.5 "microsoft yahei"; color: #959595;}
+
+/*全民理财师-产品支持*/
+.whole_people_chan { width: 100%; min-width: 1200px; height: 510px; background-color: #2a68a8;}
+.whole_people_chan .main { margin: 50px 0 70px;}
+.whole_people_chan .page { float: left; width: 116px; height: 116px; border: 2px solid #FFFFFF; border-radius: 50%; margin: 0 40px; font: 22px/116px "microsoft yahei"; color: #FFFFFF; text-align: center;}
+
+/*全民理财师-运营支持*/
+.whole_people_yun { height: 600px; background-color: #FFFFFF;}
+.whole_people_yun_head .tit {border-bottom: 2px solid #ededed;}
+.whole_people_yun_head .tit h2 { border-bottom: 2px solid #b1b1b1; color: #2a68a8;}
+.whole_people_yun_head p { color: #6d6d6d;}
+.whole_people_yun .main { width: 1100px; margin: 0 auto;}
+.whole_people_yun .left { padding-top: 100px;}
+.whole_people_yun .left li {font: 18px/2.5 "microsoft yahei"; color: #959595;}
+.whole_people_yun .right { width: 400px; padding-top: 50px;}
+.whole_people_yun .page_left { width: 160px; margin-right: 70px;}
+.whole_people_yun .page_left .page1 { width: 160px; height: 66px; margin-bottom: 30px;}
+.whole_people_yun .page_left .page1 p { width: 85px; font: 14px/66px "microsoft yahei"; color: #727272;}
+.whole_people_yun .page_left .page1 em { display: block; width: 66px; height: 66px;}
+.whole_people_yun .page_left .one em { background: url(../imgs/whole_people/yun_page.png);}
+.whole_people_yun .page_left .two em { background: url(../imgs/whole_people/yun_page.png) no-repeat 0 -66px;}
+.whole_people_yun .page_left .three em { background: url(../imgs/whole_people/yun_page.png) no-repeat 0 -132px;}
+.whole_people_yun .page_right .four em { background: url(../imgs/whole_people/yun_page.png) no-repeat 0 -198px;}
+.whole_people_yun .page_right .five em { background: url(../imgs/whole_people/yun_page.png) no-repeat 0 -264px;}
+.whole_people_yun .page_right .six em { background: url(../imgs/whole_people/yun_page.png) no-repeat 0 -330px;}
+.whole_people_yun .page_right .page2 { width: 160px; height: 66px; margin-bottom: 30px;}
+.whole_people_yun .page_right .page2 em { display: block; width: 66px; height: 66px; margin-right: 10px;}
+.whole_people_yun .page_right .page2 p { font: 14px/66px "microsoft yahei"; color: #727272;}
+
+/*全民理财师-风控支持*/
+.whole_people_feng { width: 100%; min-width: 1200px; height: 600px; background-color: #2a68a8;}
+.whole_people_feng .left { width: 600px; height: 400px; margin-top: 10px; margin-left: 50px;}
+.whole_people_feng .left .page { margin-bottom: 20px;}
+.whole_people_feng .left .img { padding: 10px 40px 0 10px;}
+.whole_people_feng .left .txt dt {font:24px/2 "microsoft yahei"; color: #FFFFFF;}
+.whole_people_feng .left .txt dt span {font:16px/2 "microsoft yahei";}
+.whole_people_feng .left .txt dd {font:16px/2 "microsoft yahei"; color: #FFFFFF;}
+.whole_people_feng .right { width: 510px; height: 400px; margin-top: 10px;}
+.whole_people_feng .right dt {font:24px/2 "microsoft yahei"; color: #FFFFFF;}
+.whole_people_feng .right dd {font:16px/3 "microsoft yahei"; color: #FFFFFF;}
+.whole_people_feng .right a {margin: 50px 0 0;}
+
+/*全民理财师-研究支持*/
+.whole_people_yan { width: 100%; min-width: 1200px; height: 600px; background: url(../imgs/whole_people/yan_bg.jpg) no-repeat top center;}
+.whole_people_yan .page { float: left; width: 174px; padding: 0 63px; margin-top: 60px;}
+.whole_people_yan .page p {font: 20px/4 "microsoft yahei"; color: #FFFFFF; text-align: center;}
+
+/*全民理财师-教育支持*/
+.whole_people_jiao { height: 700px;}
+.whole_people_jiao .page { width: 300px; height: 440px; box-shadow: 0 5px 10px rgba(0,0,0,.2); border: 1px solid #2a68a8; border-radius: 4px; overflow: hidden; margin: 30px 49px 0;}
+.whole_people_jiao .img { width: 300px; height: 200px;}
+.whole_people_jiao h4 {font: 20px/60px "microsoft yahei"; color: #323232; text-align: center;}
+.whole_people_jiao .foot { padding: 20px 10px; border-top: 1px solid #686868;}
+.whole_people_jiao .foot p { font: 16px/2 "microsoft yahei"; color: #838383;}
+
+/*全民理财师-技术支持*/
+.whole_people_ji { width: 100%; min-width: 1200px; height: 600px; background-color: #2a68a8;}
+.whole_people_ji .page { width: 650px; margin: 20px auto 0;}
+.whole_people_ji .page_other {margin-top: 80px}
+.whole_people_ji .txt { width: 130px; height: 130px; border: 2px solid #FFFFFF; position: relative;}
+.whole_people_ji .txt span {font:26px/3 "microsoft yahei"; color: #FFFFFF; background-color: #2a68a8; position: absolute; right: -10px; top: 28px;}
+.whole_people_ji .word { width: 460px; height: 130px; position: relative;}
+.whole_people_ji .word p { font:14px/2 "microsoft yahei"; color: #FFFFFF; position: absolute; top: 50%; transform: translateY(-50%);}
+
+/*全民理财师-场地支持*/
+.whole_people_chang {height: 600px;}
+.whole_people_chang .chang { width: 870px; margin: 0 auto;}
+.whole_people_chang .chang .current {margin: 0 120px;}
+.whole_people_chang .chang .p1 {font:20px/2 "microsoft yahei"; color: #676767; margin: 30px auto;}
+.whole_people_chang .chang .foot p {font:16px/4 "microsoft yahei"; color: #686868; text-align: center;}
+
+/*全民理财师-客服支持*/
+.whole_people_ke { width: 100%; min-width: 1200px; height: 300px; background-color: #2a68a8;}
+.whole_people_ke .main { width: 1224px; margin: 0 auto;}
+.whole_people_ke .main .page { width: 306px;}
+.whole_people_ke .main .img { width: 70px; height: 60px;}
+.whole_people_ke .main .txt {padding-top: 6px;}
+.whole_people_ke .main p {font: 16px/1.5 "microsoft yahei"; color: #FFFFFF;}
+
+
+/*==================================  全民理财师 招募理财顾问     ===========================*/
+.whole_people_1_banner { width: 100%; min-width: 1200px; height: 400px; background: url(../imgs/whole_people/whole_people_1_banner.jpg) no-repeat top center;}
+
+/*公共*/
+.whole_people_1_head h2 { font: 26px/2.2 "microsoft yahei"; color: #2f2f2f; text-align: center;}
+.whole_people_1_head h2.other { color: #FFFFFF;}
+.whole_people_1_head .sub { width: 1200px; height: 30px; margin: 0 auto;}
+
+/*为什么要加入*/
+.whole_people_1_why { height: 320px; padding-top: 40px;}
+.whole_people_1_why .main { padding-top: 30px;}
+.whole_people_1_why .main li {font:20px/1.8 "microsoft yahei"; color: #555555; text-align: center;}
+
+/*如何赚钱*/
+.whole_people_1_how { height: 760px; padding-top: 40px; background-color: #145985;}
+.whole_people_1_how .bg { display: block; margin: 40px auto;}
+
+/*流程*/
+.whole_people_1_flow { height: 540px; padding-top: 40px;}
+.whole_people_1_flow_b {background-color: #145985;}
+.whole_people_1_flow .list { padding-top: 30px;}
+.whole_people_1_flow .sup1 {width: 100px; height: 42px; padding-left: 20px; background: url(../imgs/whole_people/whole_people_1_flow.png) no-repeat; font:24px/42px "microsoft yahei"; color: #FFFFFF;}
+.whole_people_1_flow .sup2 { background-image: url(../imgs/whole_people/whole_people_1_flow1.png);}
+.whole_people_1_flow img { margin-top: 10px;}
+
+/*加入理财师*/
+.whole_people_1_join { width: 100%; min-width: 1200px; height: 1000px; background: url(../imgs/whole_people/whole_people_1_join.jpg) center center;}
+.whole_people_1_join h2 { font:70px/3.8 "microsoft yahei"; color: #145985; text-align: center;}
+.whole_people_1_join p { font:20px/2.5 "microsoft yahei"; color: #2c2c2c; text-align: center;}
+.whole_people_1_join h3 { font:bold 20px/8 "microsoft yahei"; color: #2c2c2c; text-align: center;}
+.whole_people_1_join .link {display: block; width: 380px; height: 80px; border: 1px solid #145985; font:30px/80px "microsoft yahei"; color: #145985; text-align: center; margin: 0 auto; transition: all .3s;}
+.whole_people_1_join .link:hover {background-color: #145985; color: #FFFFFF;}
+
+
+/*==================================  全民理财师 专属理财顾问    ===========================*/
+.whole_people_2_banner { width: 100%; min-width: 1200px; height: 400px; background: url(../imgs/whole_people/whole_people_2_banner.jpg) no-repeat top center;}
+.whole_people_2_planner { width: 1240px; height: 1000px; padding-top: 20px;}
+.whole_people_2_planner .plaaner_box { float: left; width: 554px; height: 170px; padding: 4px 20px 4px 4px; border: 1px solid #ebebeb; margin: 0 40px 40px 0;}
+.whole_people_2_planner .pic { float: left; width: 140px; height: 170px; margin-right: 15px;}
+.whole_people_2_planner .infor {width: 399px;}
+.whole_people_2_planner .infor .name { height: 40px;}
+.whole_people_2_planner .infor .name p { font-size: 16px; line-height: 40px; color: #323232; margin-right: 10px;}
+.whole_people_2_planner .infor .name ol { padding-top: 15px;}
+.whole_people_2_planner .infor .name li { float: left; width: 11px; height: 10px; background: url(../imgs/idx_main.png) -26px -28px; margin: 0 2px; }
+.whole_people_2_planner .infor .txt { height: 90px; font: 14px/2 "microsoft yahei"; color: #848484;}
+.whole_people_2_planner .infor .link { float: right; padding: 8px 16px; border-radius: 4px; background-color: #ebc76e; color: #FFFFFF;}
+.whole_people_2_planner .infor .link:hover { background-color: #f6bb22;}
+
+
+
+
+/*==================================  全民理财师 公共banner区域    ===========================*/
+.whole_people_banner { position: relative; width:100%; min-width: 1200px; height: 400px; overflow: hidden; }
+.whole_people_banner .pic { width: 100%; }
+.whole_people_banner .pic a {display: block; height: 400px;}
+.whole_people_banner .hd { width:100%;  position:absolute; z-index:999999; bottom:0; left:0; height:30px; line-height:30px; text-align:center;}
+.whole_people_banner .hd li{cursor:pointer; display:inline-block; *display:inline; zoom:1; width:12px; height:12px; border: 2px solid #fff; border-radius: 50%; margin:4px; overflow:hidden; z-index:9999999; }
+.whole_people_banner .hd .on{ width: 16px; height: 16px; background-color: #FFFFFF; border: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
