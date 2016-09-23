@@ -662,6 +662,42 @@ html,body {
 	cursor: pointer;
 }
 
+/*响应到1366屏幕部分*/
+/*媒体查询，小于1366*768*/
+@media (max-width: 1366px) {
+	.page3 .w1200,.page4 .w1200 {
+		position: absolute;
+		width: 1200px;
+		height: 600px;
+		top: 50%;
+		left: 50%;
+		margin-top: -300px;
+		margin-left: -600px;
+	}
+	.page3-1 h2,.page4-1 h2 {
+		font: 36px/1.5 "microsoft yahei";
+		margin: 0;
+	}
+	.page3-2,.page3-3,.page3-4,.page3-5 {
+		margin-bottom: 10px;
+		padding-top: 10px;
+	}
+	.page4-2{top: 50px;}
+	.page4-3{top: 70px;}
+	.page4-4{top: 50px;}
+	.page4-5{top: 260px;}
+	.page4-6{top: 395px;}
+	.page4-7{top: 425px;}
+	.page4-8{top: 395px;}
+	.page4-9{top: 265px;}
+	.page5-in {
+		margin-top: 10px;
+	}
+	.page6-1 {
+		margin-top: 50px;
+	}
+		
+}
 
 
 

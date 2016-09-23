@@ -41,10 +41,13 @@
 }
 .idx_super .content .last { margin: 0; }
 
-/* 首页产品专区   */
-.idx_main { width: 100%; padding-bottom: 50px; background-color: #FFFFFF; /*box-shadow: 0 10px 40px rgba(0,0,0,.1) inset;*/}
+/* 首页产品专区 ~公共~ */
+.idx_main { width: 100%; padding-bottom: 50px; background-color: #fbfbfb; /*box-shadow: 0 10px 40px rgba(0,0,0,.1) inset;*/}
+/*按钮*/
+.idx_main .btn_bespeak { display: block; width: 140px; height: 40px; border-bottom: 2px solid #b08722; border-radius: 2px; font: 18px/40px "microsoft yahei"; color: #FFFFFF; background-color: #ffc73e; text-align: center; margin: 30px auto; }
+.idx_main .btn_bespeak:hover { background-color: #ff623e; border-color: #b63b1f;}
+.idx_main .type { width: 78px; height: 37px; position: absolute; top: -3px; right: 0;}/*角标*/
 
-/* 首页主要内容区域  ~公共~ */
 .idx_main .container { margin-top: 30px; }
 .idx_main .container .head { width: 220px; height: 410px; background: #f16e66 url(../imgs/main_privately.png) no-repeat bottom center; box-shadow: 4px 0 8px rgba(0,0,0,.4);}
 .idx_main .container .head h3 { font: 28px/3 "microsoft yahei"; color: #FFFFFF;}
@@ -53,37 +56,6 @@
 .idx_main .container .head a:hover { text-decoration: underline; }
 .idx_main .container .head .angle_t { width: 21px; height: 14px; background: url(../imgs/idx_main.png) no-repeat top left; top: 0; right: -21px;}
 .idx_main .container .head .angle_b { width: 21px; height: 14px; background: url(../imgs/idx_main.png) no-repeat 0 -14px; bottom: 0; right: -21px;}
-.idx_main .container .main { width: 980px; height: 377px; background-color: #FFFFFF; margin-top: 14px; padding-top: 5px;}
-.idx_main .container .main .top { width: 283px; height: 167px; overflow: hidden; }
-.idx_main .container .main .top img {
-	-webkit-transition: all .5s;
-	   -moz-transition: all .5s;
-	    -ms-transition: all .5s;
-	     -o-transition: all .5s;
-	        transition: all .5s;
-}.idx_main .container .main .top img:hover {
-	-webkit-transform: scale(1.05);
-	   -moz-transform: scale(1.05);
-	    -ms-transform: scale(1.05);
-	     -o-transform: scale(1.05);
-	        transform: scale(1.05);
-}
-.idx_main .container .main .wrap { width: 283px; height: 370px; border: 1px solid #ffc73e; margin-left: 34px; }
-.idx_main .container .main .wrap .type { width: 50px; height: 52px; background: url(../imgs/idx_main.png) no-repeat top right; top: 0; right: 0;}
-.idx_main .container .main .wrap h4 { font: 14px/4 "microsoft yahei"; }
-.idx_main .wrap .info .data { float: left; padding: 0 14px; border-right: 1px solid #e1e1e1; }
-.idx_main .wrap .info .last { border: none; }
-.idx_main .wrap .info .num { font-size: 16px; color: #ffc73e; }
-.idx_main .wrap .info .num em { font-size: 30px; font-family: arial; font-weight: lighter;}
-.idx_main .wrap .info .say { font: 14px/1 "microsoft yahei"; color: #8b8b8b; }
-.idx_main .wrap .progress { text-align: center; margin-top: 20px; }
-.idx_main .wrap .progress-bar { display: inline-block; width: 200px; height: 4px; border-radius: 2px; background-color: #b4b4b4;}
-.idx_main .wrap .progress-bar i { display: block; width: 50%; height: 4px; border-radius: 2px; background-color: #ffc73e;}
-.idx_main .wrap .progress span { display: inline-block; font-size: 14px; color: #8b8b8b; vertical-align: middle; }
-.idx_main .wrap .btn1 { display: block; width: 230px; height: 36px; margin: 10px auto; border-radius: 4px;background-color: #ffc73e; font: 20px/36px "microsoft yahei"; color: #FFFFFF; text-align: center;}
-.idx_main .wrap .btn1:hover { background-color: #fbbc14; }
-/* 首页主要内容区域  ~私有~ */
-.idx_main .container .main .wrap3 .type { background: url(../imgs/idx_main.png) no-repeat bottom right; }
 .idx_main .container2 .head { background: #ffc73e url(../imgs/main_sun.png) no-repeat bottom center; }
 .idx_main .container2 .head .angle_t { background: url(../imgs/idx_main.png) no-repeat -21px 0;}
 .idx_main .container2 .head .angle_b { background: url(../imgs/idx_main.png) no-repeat -21px -14px;}
@@ -96,6 +68,36 @@
 .idx_main .container5 .head { background: #1c75bc url(../imgs/main_trust.png) no-repeat bottom center; }
 .idx_main .container5 .head .angle_t { background: url(../imgs/idx_main.png) no-repeat -84px 0;}
 .idx_main .container5 .head .angle_b { background: url(../imgs/idx_main.png) no-repeat -84px -14px;}
+
+/* 首页产品专区 ~内部公共~ */
+.idx_main .container .main { width: 980px; height: 382px; background-color: #FFFFFF; margin-top: 14px;}
+.idx_main .container .main_first .tit:hover { color: #ff623e;}
+.idx_main .container .main_first .item a:hover { color: #ff623e;}
+.idx_main .container .main_first { width: 669px; height: 382px; border-right: 1px solid #e1e1e1;}
+.idx_main .container .main_first .tit {font: 24px/4 "microsoft yahei"; color: #3b3b3b; padding-left: 40px;}
+.idx_main .container .main_first .frame { width: 627px; height: 176px; margin: 6px auto 0;}
+.idx_main .container .main_first .item { width: 179px; height: 176px; margin: 0 15px; background: url(../imgs/idx_main_frame.png) no-repeat;}
+.idx_main .container .main_first .item .attr_val { height: 40px; padding-top: 60px; font: 24px/40px "microsoft yahei"; text-align: center; color: #3b3b3b;}
+.idx_main .container .main_first .item .attr_val .small { font-size: 20px;}
+.idx_main .container .main_first .item .attr_val_first,.idx_main .container .main_first .item a { color: #ff8b3e;}
+.idx_main .container .main_first .item .attr_name { font: 16px/2.5 "microsoft yahei"; text-align: center; color: #bbbbbb;}
+
+.idx_main .container .main_second {width: 310px; height: 382px;}
+.idx_main .container .main_second_in { position: relative;}
+.idx_main .container .main_second_in .tit:hover { color: #ff623e;}
+.idx_main .container .main_second_in li a:hover { color: #ff623e;}
+.idx_main .container .main_second_in { padding: 30px 30px 0 20px; width: 260px; height: 160px; border-bottom: 1px solid #e1e1e1;}
+.idx_main .container .borderno{ border: none;}
+.idx_main .container .main_second_in .tit { display: inline-block; width: 100%; font: 18px/2 "microsoft yahei"; color: #3b3b3b; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+.idx_main .container .main_second_in li { height: 38px; line-height: 38px;}
+.idx_main .container .main_second_in li .titl { font: 14px/38px "microsoft yahei"; color: #bbbbbb; margin-right: 14px;}
+.idx_main .container .main_second_in li .con { font: 16px/38px "microsoft yahei"; color: #3b3b3b;}
+.idx_main .container .main_second_in li .color { color: #ff8b3e;}
+/*active*/
+.idx_main .container .main_second_in .block { transition: all .25s ease-in-out;/*cursor: not-allowed;*/}
+.idx_main .container .main_second_in .block:hover { -webkit-transform: translateX(10px); transform: translateX(10px);}
+
+
 
 /* 首页理财经理专区 */
 .idx_manager { width: 100%; height: 530px; background: url(../imgs/main_manager_bg.jpg) no-repeat top center;}
@@ -344,6 +346,16 @@
 
 
 
+
+
+/*========================  404页面    ============================*/
+.Error_404 { width: 100%; height: 545px; padding-top: 125px; background: url(../imgs/404_Error_bg.jpg);}
+.Error_404 .Error_404_pic { display: block; width: 496px; height: 254px; background-image: url(../imgs/404_Error.png); margin: 0 auto 50px;}
+.Error_404 .Error_404_info { font: italic bold 22px/4 "microsoft yahei"; text-align: center; color: #ff8a00;}
+.Error_404 .Error_404_btn { text-align: center; width: 1200px; height: 50px; margin: 0 auto;}
+.Error_404 .btn_404 { display: inline-block; height: 50px; width: 180px; font: 20px/50px "microsoft yahei"; color: #FFFFFF; text-align: center;}
+.Error_404 .home { background-color: #ff8a00; margin-right: 25px;}
+.Error_404 .high { background-color: #c2151f;}
 
 
 

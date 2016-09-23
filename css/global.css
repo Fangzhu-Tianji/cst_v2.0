@@ -54,6 +54,7 @@ a:active { text-decoration:none; } /* active */
 
 .inner { width:1200px; margin:0 auto; } /* 版心 */
 
+.borderno { border: none; }
 .fl { float: left; }
 .fr { float: right; }
 .por { position: relative; }
