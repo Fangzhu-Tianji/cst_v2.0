@@ -34,7 +34,7 @@ input,textarea { outline:none; }
 textarea { resize:none; overflow:auto; }
 p{ word-wrap:break-word; }
 body { font-size:14px; font-family: "Microsoft YaHei",tahoma, Helvetica, Arial, "Segoe UI", "Lucida Grande", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", "FontAwesome", sans-serif;}
-html,body { width:100%;height:100%;}
+html,body { width:100%;height:100%;background-color:#fbfbfb;}
 
 a{ text-decoration:none; color: #999999;}
 a:focus { text-decoration:none; }

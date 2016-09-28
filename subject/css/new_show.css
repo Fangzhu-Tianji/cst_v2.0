@@ -475,88 +475,27 @@ html,body {
 	color: #fff;
 	text-shadow: 0 5px 0 #6FA1B9;
 	text-align: center;
-	margin: 40px 0 10px 0;
+	margin: 40px 0 50px 0;
 }
-.page5-in {
-	display: inline-block;
-	width: 340px;
-	height: 470px;
-	background-color: #fff;
-	box-shadow: 0 10px 10px #98D2EF;
-	border-radius: 8px;
-	margin: 80px 20px 100px;
+.page5-2 {
+	float: left;
+	padding: 50px;
 }
-.page5-in-top {
-	width: 340px;
-	height: 160px;
-	border-radius: 8px 8px 0 0;
-	background-color: #6879f9;
-	font: 40px/160px "Microsoft Yahei";
-	color: #fff;
+.page5-3 {
+	float: right;
+	width: 400px;
+}
+.page5-3 .container {
+	float: left;
+	width: 116px;
+	height: 116px;
+	background-color: #f5763f;
+	border: 4px solid #f29b76;
+	border-radius: 100%;
+	font: bold 22px/116px "microsoft yahei";
 	text-align: center;
-}
-.page5-in-bottom p {
-	font: 22px/1 "Microsoft Yahei";
-	color: #6879f9;
-	text-align: center;
-	margin-top: 20px;
-}
-.page5-in-bottom img {
-	margin: 40px auto;
-}
-.page5-in-bottom a {
-	display: block;
-	width: 210px;
-	height: 54px;
-	font: 22px/54px "Microsoft Yahei";
-	color: #6879f9;
-	border: 2px solid #6879f9;
-	border-radius: 4px;
-	text-align: center;
-	margin: 0 auto;
-	-webkit-transition: all .5s;
-	-ms-transition: all .5s;
-	transition: all .5s;
-}
-.page5-in-bottom a:hover {
-	background-color: #6879f9;
 	color: #fff;
-	text-decoration: none;
-}
-
-.chuang img {
-	margin: 45.5px auto;
-}
-.hui img {
-	margin: 38.5px auto;
-}
-.chuang .page5-in-top {
-	background-color: #f7cf8a;
-}
-.hui .page5-in-top {
-	background-color: #f27871;
-}
-.chuang .page5-in-bottom p {
-	color: #f7cf8a;
-}
-.hui .page5-in-bottom p {
-	color: #f27871;
-}
-.chuang .page5-in-bottom a {
-	color: #f7cf8a;
-	border: 2px solid #f7cf8a;
-}
-.hui .page5-in-bottom a {
-	color: #f27871;
-	border: 2px solid #f27871;
-}
-.chuang .page5-in-bottom a:hover {
-	background-color: #f7cf8a;
-	color: #fff;
-}
-.hui .page5-in-bottom a:hover {
-	background-color: #f27871;
-	color: #fff;
+	margin: 0 70px 70px 0;
 }
 	/* 过度 */
 .page5-1 {
@@ -564,17 +503,12 @@ html,body {
 	-ms-transition: all 2s;
 	transition: all 2s;
 }
-.beng {
+.page5-2 {
 	-webkit-transition: all 2s;
 	-ms-transition: all 2s;
 	transition: all 2s;
 }
-.chuang {
-	-webkit-transition: all 2s;
-	-ms-transition: all 2s;
-	transition: all 2s;
-}
-.hui {
+.page5-3 {
 	-webkit-transition: all 2s;
 	-ms-transition: all 2s;
 	transition: all 2s;
@@ -585,7 +519,13 @@ html,body {
 	transform: scale(0.1);
 	opacity: 0;
 }
-.out .beng,.out .chuang,.out .hui {
+.out .page5-2 {
+	-webkit-transform: rotateY(180deg) translate(0,400px);
+	-ms-transform: rotateY(180deg) translate(0,400px);
+	transform: rotateY(180deg) translate(0,400px); /* 多个transform叠加时的写法 */
+	opacity: 0;
+}
+.out .page5-3 {
 	-webkit-transform: rotateY(180deg) translate(0,400px);
 	-ms-transform: rotateY(180deg) translate(0,400px);
 	transform: rotateY(180deg) translate(0,400px); /* 多个transform叠加时的写法 */
@@ -665,7 +605,7 @@ html,body {
 /*响应到1366屏幕部分*/
 /*媒体查询，小于1366*768*/
 @media (max-width: 1366px) {
-	.page3 .w1200,.page4 .w1200 {
+	.page3 .w1200,.page4 .w1200,.page5 .w1200 {
 		position: absolute;
 		width: 1200px;
 		height: 600px;
@@ -674,7 +614,7 @@ html,body {
 		margin-top: -300px;
 		margin-left: -600px;
 	}
-	.page3-1 h2,.page4-1 h2 {
+	.page3-1 h2,.page4-1 h2,.page5-1 h2 {
 		font: 36px/1.5 "microsoft yahei";
 		margin: 0;
 	}
@@ -691,7 +631,10 @@ html,body {
 	.page4-8{top: 395px;}
 	.page4-9{top: 265px;}
 	.page5-in {
-		margin-top: 10px;
+		margin-top: 30px;
+	}
+	.page5-3 .container {
+		margin: 0 70px 40px 0;
 	}
 	.page6-1 {
 		margin-top: 50px;
