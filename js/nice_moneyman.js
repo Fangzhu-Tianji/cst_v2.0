@@ -1,6 +1,6 @@
 $(function(){
 	
-//	=========================  合格投资者认定      ================
+//	======================   合格投资者认定      ================
 	(function($){
 		$('.nice_moneyman_2_1 a').click(function(){
 	        if( $('.nice_moneyman_2_1 .first input').prop('checked') && ($('.nice_moneyman_2_1 .center input').prop('checked')||$('.nice_moneyman_2_1 .last input').prop('checked'))  ){
@@ -31,7 +31,7 @@ $(function(){
 		
 	})(jQuery);
 	
-//	===========================  调查问卷     ===============================
+//	========================  调查问卷     ============================
 	(function($){
 	    var sum = 0;
 	    $('.nice_moneyman_into_per .nice_into_main p input[type=radio]').click(function(){

@@ -86,11 +86,26 @@ $(function(){
 		uHover( $('.idx_scroll_ad .scroll2'),timer2,autoPlay2 );
 		uHover( $('.idx_scroll_ad .scroll3'),timer3,autoPlay3 );
 		
-	})();
+	})(jQuery);
+
+
+//  --------------------- 信托 ------------------
+(function(){
+	var num = 0;
+	$('.truse_pro_main .truse_pro_tab_hd .tab_hd_item').click(function(){
+		num = $(this).index();
+		zchswitch( $('.truse_pro_main .truse_pro_tab_hd .tab_hd_item') );
+		zchswitch( $('.truse_pro_main .truse_pro_tab_bd .tab_bd_item') );
+	});
+	function zchswitch(switch_in){
+		switch_in.eq(num).addClass('active').siblings().removeClass('active');
+	};
 	
+	
+})(jQuery);
 	
 
-//	----------------------------- 关于我们_管理团队   ----------------------------------
+//	------------------------- 关于我们_管理团队   ------------------------
 	
 	(function($){
 		var tag = $('.about_teams .pic_in_in .page').clone();
@@ -152,7 +167,7 @@ $(function(){
 	})(jQuery);
 
 
-//  ----------------------------------  关于我们_办公环境    ---------------------------
+//  --------------------  关于我们_办公环境    --------------
 	(function($){
 		//要先克隆一组
 		var tag = $('.about_office .main li').clone();
@@ -371,11 +386,11 @@ $(function(){
 				$('.whole_people_nav_container li').children().removeClass('active');
 				$('.whole_people_nav_container li').eq(5).children().addClass('active');
 			}
-			else if( h>=4740 && h<5340  ){
+			else if( h>=4740 && h<5000  ){
 				$('.whole_people_nav_container li').children().removeClass('active');
 				$('.whole_people_nav_container li').eq(6).children().addClass('active');
 			}
-			else if( h>=5340  ){
+			else if( h>=5000  ){
 				$('.whole_people_nav_container li').children().removeClass('active');
 				$('.whole_people_nav_container li').eq(7).children().addClass('active');
 			}

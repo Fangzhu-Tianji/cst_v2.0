@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/*==================================  全民理财师 八大支持     ===========================*/
+/*================  全民理财师 八大支持     ====================*/
 /*公共*/
 .whole_people_head { height: 120px; padding-top: 50px;}
 .whole_people_head .tit { width: 270px; height: 70px; border-bottom: 2px solid #FFFFFF; margin: 0 auto;}
@@ -174,7 +174,7 @@
 .whole_people_ke .main p {font: 16px/1.5 "microsoft yahei"; color: #FFFFFF;}
 
 
-/*==================================  全民理财师 招募理财顾问     ===========================*/
+/*====================  全民理财师 招募理财顾问     ==================*/
 .whole_people_1_banner { width: 100%; min-width: 1200px; height: 400px; background: url(../imgs/whole_people/whole_people_1_banner.jpg) no-repeat top center;}
 
 /*公共*/
@@ -208,7 +208,7 @@
 .whole_people_1_join .link:hover {background-color: #145985; color: #FFFFFF;}
 
 
-/*==================================  全民理财师 专属理财顾问    ===========================*/
+/*==============  全民理财师 专属理财顾问    ===================*/
 .whole_people_2_banner { width: 100%; min-width: 1200px; height: 400px; background: url(../imgs/whole_people/whole_people_2_banner.jpg) no-repeat top center;}
 .whole_people_2_planner { width: 1240px; height: 1000px; padding-top: 20px;}
 .whole_people_2_planner .plaaner_box { float: left; width: 554px; height: 170px; padding: 4px 20px 4px 4px; border: 1px solid #ebebeb; margin: 0 40px 40px 0;}
@@ -217,7 +217,7 @@
 .whole_people_2_planner .infor .name { height: 40px;}
 .whole_people_2_planner .infor .name p { font-size: 16px; line-height: 40px; color: #323232; margin-right: 10px;}
 .whole_people_2_planner .infor .name ol { padding-top: 15px;}
-.whole_people_2_planner .infor .name li { float: left; width: 11px; height: 10px; background: url(../imgs/idx_main.png) -26px -28px; margin: 0 2px; }
+.whole_people_2_planner .infor .name li { float: left; width: 11px; height: 10px; background: url(../imgs/index/idx_main.png) -26px -28px; margin: 0 2px; }
 .whole_people_2_planner .infor .txt { height: 90px; font: 14px/2 "microsoft yahei"; color: #848484;}
 .whole_people_2_planner .infor .link { float: right; padding: 8px 16px; border-radius: 4px; background-color: #ebc76e; color: #FFFFFF;}
 .whole_people_2_planner .infor .link:hover { background-color: #f6bb22;}
@@ -225,7 +225,7 @@
 
 
 
-/*==================================  全民理财师 公共banner区域    ===========================*/
+/*=====================  全民理财师 公共banner区域    ====================*/
 .whole_people_banner { position: relative; width:100%; min-width: 1200px; height: 400px; overflow: hidden; }
 .whole_people_banner .pic { width: 100%; }
 .whole_people_banner .pic a {display: block; height: 400px;}
