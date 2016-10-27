@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+/*register*/
+#nav .register {font: 24px/70px "microsoft yahei"; color: #aaa;}
+#nav .register i { margin: 0 20px;}
+
+.register_in { width: 1022px; height: 588px; padding: 100px 88px 0; border: 1px solid #e1e1e1; margin:10px auto 30px;}
+.register_in .tree .info { text-align: center; color: #ffc465;}
+.register_in .tree .info i { display: inline-block; width: 32px; height: 32px; border-radius: 50%; margin: 15px 10px 0; background-color: #ffc465; color: #fff; font: 16px/32px "microsoft yahei"; text-align: center;}
+.register_in .tree .one .bg { width: 336px; height: 61px; background: url(../imgs/register/flow_dark_one.png) no-repeat;}
+.register_in .tree .two .bg { width: 367px; height: 61px; margin: 0 -10px; background: url(../imgs/register/flow_dark_two.png) no-repeat;}
+.register_in .tree .three .bg { width: 335px; height: 61px; background: url(../imgs/register/flow_dark_three.png) no-repeat;}
+.register_in .tree .one .active { background: url(../imgs/register/flow_light_one.png) no-repeat;}
+.register_in .tree .two .active { background: url(../imgs/register/flow_light_two.png) no-repeat;}
+.register_in .tree .three .active { background: url(../imgs/register/flow_light_three.png) no-repeat;}
+.register_in .tree .active .info { color: #fff;}
+.register_in .tree .active .info i { background-color: #fff; color: #ebc76e;}
+
+.register_in .container .page {margin-bottom: 30px;}
+.register_in .container .page .tit { width: 350px; text-align: right; font: 16px/42px "microsoft yahei"; color: #525252; margin-right: 20px;}
+.register_in .container .page .tit i { color: #ee4e57;}
+.register_in .container .page .main .txt { width: 258px; height: 40px; padding: 0 10px; margin-right: 15px; border: 1px solid #b4b4b4; border-radius: 2px; font:16px/42px "microsoft yahei";}
+.register_in .container .page .main .txt:focus { outline: 0 none; border: 1px solid #ffa70d; box-shadow: 0 0 5px rgba(255,167,13,.3);}
+.register_in .container .page .main .password_bar { padding-left: 100px; height: 30px; line-height: 30px;}
+.register_in .container .page .main .password_bar span { color: #b4b4b4; margin-right: 10px;}
+.register_in .container .page .main .password_bar li { width:35px; height: 16px; line-height: 16px; background-color: #ddd; color: #fff; text-align: center; margin-right: 4px; margin-top: 7px;}
+.register_in .container .page .main .password_bar li.active { background-color: #ffa70d;}
+.register_in .container .page .main span.validate_txt { font-size: 16px; color: #ee4e57;}
+.register_in .container .tree_btn { width: 280px; height: 50px; border-radius: 2px; background: #ffa70d; font: 16px/50px "microsoft yahei"; color: #ffffff; text-align: center; margin: 0 auto; cursor: pointer;}
+.register_in_one { padding-top: 100px;}
+.register_in_one .main .code { display: inline-block; width: 145px; height: 40px; border-radius: 2px; background-color: #ffa70d; color: #fff; font:16px/42px "microsoft yahei"; text-align: center; cursor: pointer;}
+.register_in_one .term { text-align: center; margin-bottom: 15px;}
+.register_in_one .term label { color: #626262; cursor: pointer;}
+.register_in_one .term a { color: #ffa70d;}
+.register_in_three .success { font:24px/6 "microsoft yahei"; color: #3e8b33; text-align: center; background: url(../imgs/register/register_success.png) no-repeat 410px center;}
+.register_in_three .tit { font: 18px/2 "microsoft yahei"; color: #777777; text-align: center;}
+.register_in_three .tit .link {color: #ffa70d;}
+.register_in_three .believe_btn { width: 410px; height: 40px; margin: 40px auto 0;}
+.register_in_three .believe_btn a {width: 200px; height: 40px; background-color: #ffa70d; border-radius: 2px; font: 16px/40px "microsoft yahei"; color: #ffffff; text-align: center;}
+.register_in_three .believe_btn a.again { background-color: #cccccc; margin-left: 10px;}
+
+/*regservice*/
+#nav .already {font: 14px/100px "microsoft yahei"; color: #3b3b3b;}
+#nav .already a {color: #ffc73e;}
+.regservice { width: 1138px; padding: 0 30px; margin-bottom: 80px; border: 1px solid #e1e1e1;}
+.regservice .tit {font: bold 22px/5 "microsoft yahei"; color: #3b3b3b; text-align: center; border-bottom: 1px solid #e1e1e1;}
+.regservice h3 { font: bold 18px/1.2 "microsoft yahei"; color: #525252; border-left: 2px solid #ffc73e; padding-left: 10px; margin-top: 50px; margin-bottom: 10px;}
+.regservice p {font:14px/3 "microsoft yahei"; color: #8f8f8f;}
+.regservice h4 {font:14px/3 "microsoft yahei"; color: #525252;}
+
+/*login*/
+.login_in { width: 100%; height: 500px; background: pink; position: relative;}
+.login_in .fix_box { width: 320px; height: 330px; padding: 10px 20px 0; border: 1px solid #ccc; background-color: #fff; float: right; margin-top: 80px;}
+.login_in .fix_box .head span { font:20px/60px "microsoft yahei"; color: #999999;}
+.login_in .fix_box .head a { width: 56px; padding-left: 18px; font: 14px/60px "microsoft yahei"; color: #ffc73e; background: url(../imgs/register/login_register.png) no-repeat center left;}
+.login_in .fix_box .head a i {display: inline-block; width: 14px; height: 14px; margin-top: 4px;}
+.login_in .fix_box .page { width: 318px; height: 50px; margin-bottom: 20px;}
+.login_in .fix_box .page .type {width: 49px; height: 48px; border: 1px solid #cccccc; border-right: 0 none; background: #ededed url(../imgs/register/login_usertel.png) no-repeat center;}
+.login_in .fix_box .page .type_password {background: #ededed url(../imgs/register/login_password.png) no-repeat center;}
+.login_in .fix_box .page .main { width: 246px;}
+.login_in .fix_box .page .txt { width: 246px; height: 48px; padding: 0 10px; border: 1px solid #ccc; background-color: #ffffff; font:14px/48px "microsoft yahei";}
+.login_in .fix_box .tips .remember { vertical-align: middle;}
+.login_in .fix_box .tips label { font:14px/20px "microsoft yahei"; color: #999999; cursor: pointer;}
+.login_in .fix_box .tips a { font:14px/20px "microsoft yahei"; color: #999999;}
+.login_in .fix_box .tips a:hover { color: #ffc73e;}
+.login_in .fix_box .login_put { width: 320px; height: 44px; margin-top: 20px; border-radius: 2px; background-color: #ffc73e; font:20px/44px "microsoft yahei"; text-align: center; color: #fff; cursor: pointer;}
+
+
+

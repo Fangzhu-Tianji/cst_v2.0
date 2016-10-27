@@ -48,7 +48,10 @@
 /* 首页产品专区 ~公共~ */
 .idx_main { width: 100%; padding-bottom: 50px; background-color: #fbfbfb; /*box-shadow: 0 10px 40px rgba(0,0,0,.1) inset;*/}
 /*按钮*/
-.idx_main .btn_bespeak { display: block; width: 140px; height: 40px; border-bottom: 2px solid #b08722; border-radius: 2px; font: 18px/40px "microsoft yahei"; color: #FFFFFF; background-color: #ffc73e; text-align: center; margin: 30px auto; }
+.idx_main .btn_skip { display: block; width: 140px; height: 40px; border-radius: 2px; font: 18px/40px "microsoft yahei"; color: #FFFFFF; text-align: center; margin: 30px auto; }
+.idx_main .btn_bespeak { border-bottom: 2px solid #b08722; background-color: #ffc73e;}
+.idx_main .btn_load { border-bottom: 2px solid #a88c48; background-color: #d8b766;}
+.idx_main .btn_end { border-bottom: 2px solid #9c9c9c; background-color: #c8c8c8;}
 .idx_main .btn_bespeak:hover { background-color: #ff623e; border-color: #b63b1f;}
 .idx_main .type { width: 78px; height: 37px; position: absolute; top: -3px; right: 0;}/*角标*/
 
@@ -81,7 +84,7 @@
 .idx_main .container .main_first .tit {font: 24px/4 "microsoft yahei"; color: #3b3b3b; padding-left: 40px;}
 .idx_main .container .main_first .frame { width: 627px; height: 176px; margin: 6px auto 0;}
 .idx_main .container .main_first .item { width: 179px; height: 176px; margin: 0 15px; background: url(../imgs/index/idx_main_frame.png) no-repeat;}
-.idx_main .container .main_first .item .attr_val { height: 40px; padding-top: 60px; font: 24px/40px "microsoft yahei"; text-align: center; color: #3b3b3b;}
+.idx_main .container .main_first .item .attr_val { height: 40px; padding-top: 60px; font: 24px/40px "microsoft yahei"; text-align: center; color: #3b3b3b; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
 .idx_main .container .main_first .item .attr_val .small { font-size: 20px;}
 .idx_main .container .main_first .item .attr_val_first,.idx_main .container .main_first .item a { color: #ff8b3e;}
 .idx_main .container .main_first .item .attr_name { font: 16px/2.5 "microsoft yahei"; text-align: center; color: #bbbbbb;}
@@ -112,7 +115,7 @@
 .mg_main_in { width: 1120px; height: 360px; margin: 0 auto; overflow: hidden; /* background-color: pink;*/}
 .mg_main_in ul { width: 3000px; }
 .mg_team { width: 240px; height: 350px; margin: 0 20px; padding-top: 10px; box-shadow: 0 4px 10px rgba(255,255,255,0.2); background: rgba(255,88,88,.65); }
-.mg_team .img { width: 112px; height: 112px; border-radius: 50%; background: url(../imgs/index/main_manager_1.jpg) no-repeat top center; margin: 0 auto 6px; }
+.mg_team .img { width: 112px; height: 112px; border-radius: 50%; background: url(../imgs/index/main_manager_1.jpg) no-repeat top center; background-size: cover; margin: 0 auto 6px; }
 .mg_team p { margin-left: 60px; color: #fbfbfa; line-height: 1.5; }
 .mg_team .vip li {display: block; width: 11px; height: 10px; margin: 6px 2px 0 2px; background: url(../imgs/index/idx_main.png) -26px -28px; float: left; }
 .mg_team .bottom { height: 80px; padding: 10px 20px; margin-top: 10px; border-top: 1px solid #ffbdbb; } 
@@ -155,7 +158,7 @@
 /*首页合作伙伴区域*/
 .idx_partner .partner_in { margin: 10px 0 50px 0; width: 1270px;}
 .idx_partner li { float: left; width: 184px; height: 63px; margin: 20px 70px 0 0;}
-.idx_partner li a { display: block; width: 184px; height: 63px; transition: all .2s; overflow: hidden;}
+.idx_partner li a { display: block; width: 184px; height: 63px; border: 1px solid #E1E1E1; transition: all .2s; overflow: hidden;}
 .idx_partner li a:hover { margin-top: -2px; box-shadow: 0 5px 15px rgba(0,0,0,.1);}
 
 
@@ -164,14 +167,14 @@
 .truse_title { height: 30px; width: 100%; padding-top: 30px; border-bottom: 2px solid #e1e1e1;}
 .truse_title h2 { display: inline; font: 20px/20px "microsoft yahei"; color: #ffb500; padding: 0 10px 7px; border-bottom: 2px solid #ffb500;}
 /*E_public*/
-.truse_banner { height: 360px; width: 100%; background: url(../imgs/truse/truse_banner.jpg) no-repeat center top;}
+.truse_banner { height: 360px; width: 100%; background: url(../imgs/product/truse_banner.jpg) no-repeat center top;}
 .truse_light { width: 100%; height: 100px; background-color: #fff; border-bottom: 1px solid #dadada;}
 .truse_light .page { width: 210px; margin-right: 100px;}
 .truse_light .page img { padding: 12px 0 0 20px;}
 .truse_light .page span { font: 16px/100px "microsoft yahei"; color: #323232; padding-left: 10px;}
 /*truse_hot*/
 .truse_hot .container { width: 1224px; margin: 20px auto;}
-.truse_hot .container li { float: left; width: 280px; height: 160px; margin-right: 26px; 
+.truse_hot .container li { float: left; width: 280px; height: 160px; margin-right: 26px; overflow: hidden; 
 -webkit-transition: all .5s ;
    -moz-transition: all .5s ;
     -ms-transition: all .5s ;
@@ -189,7 +192,8 @@
 .truse_fine .product table th { height: 60px; font:16px/60px "microsoft yahei"; color: #999999; text-align: center;}
 .truse_fine .product table thead tr { border-bottom: 1px dashed #e1e1e1;}
 .truse_fine .product table tbody tr:nth-of-type(even) { background-color: #fffcf5;}
-.truse_fine .product table td { height: 60px; font:14px/60px "microsoft yahei"; color: #323232; text-align: center;}
+.truse_fine .product table td { height: 60px; font-size: 14px; color: #323232; text-align: center;}
+.truse_fine .product table td span { display: inline-block; width: 150px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
 .truse_fine .product table td.product_name { color: #ff9322;}
 .truse_fine .product table td.link a { display: inline-block; padding: 8px 18px; background-color: #ffc73e; color: #fff; line-height: 1; border-radius: 2px;}
 .truse_fine .product table td.link a:hover { background-color: #ff9322;}
@@ -209,11 +213,21 @@
 .truse_new_good_main .page .main { float: left;}
 .truse_new_good_main .page .main p { font:16px/68px "microsoft yahei"; color: #6c6c6c;}
 .truse_new_good_main .page .main span { color: #b4b4b4;}
-.truse_new_good_main .page .pic1 { background: url(../imgs/truse/truse_new_good.png) no-repeat;}
-.truse_new_good_main .page .pic2 { background: url(../imgs/truse/truse_new_good.png) no-repeat 0 -69px;}
-.truse_new_good_main .page .pic3 { background: url(../imgs/truse/truse_new_good.png) no-repeat 0 -139px;}
-.truse_new_good_main .page .pic4 { background: url(../imgs/truse/truse_new_good.png) no-repeat 0 -208px;}
-.truse_new_good_main .page .pic5 { background: url(../imgs/truse/truse_new_good.png) no-repeat 0 -277px;}
+.truse_new_good_main .page .pic1 { background: url(../imgs/product/truse_new_good.png) no-repeat;}
+.truse_new_good_main .page .pic2 { background: url(../imgs/product/truse_new_good.png) no-repeat 0 -69px;}
+.truse_new_good_main .page .pic3 { background: url(../imgs/product/truse_new_good.png) no-repeat 0 -139px;}
+.truse_new_good_main .page .pic4 { background: url(../imgs/product/truse_new_good.png) no-repeat 0 -208px;}
+.truse_new_good_main .page .pic5 { background: url(../imgs/product/truse_new_good.png) no-repeat 0 -277px;}
+/*---私募页面不同的---*/
+.fund_new_good_main {height: 341px; background-color: #fff; margin: 20px auto;}
+.fund_new_good_main .page .item { padding-top: 8px;}
+.fund_new_good_main .page i { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin: 0 10px 0 10px;}
+.fund_new_good_main .page i.befor {background: #578dfb;}
+.fund_new_good_main .page i.center {background: #ffcd54;}
+.fund_new_good_main .page i.after {background: #ffac7a;}
+.fund_new_good_main .page li { font:16px/2 "microsoft yahei"; color: #7b7b7b;}
+.fund_new_good_main .line { width: 250px; border-bottom: 1px dashed #aeaeae; margin-left: 80px; margin-bottom: 5px;}
+
 /*信托购买*/
 .truse_buy { margin-bottom: 50px;}
 .truse_buy_main { width: 100%; height: 255px; padding-top: 30px; background-color: #fff; margin: 20px auto 0;}
@@ -238,10 +252,11 @@
 .truse_pro_info_in .info_address .head { width: 379px; height: 75px; border-right: 1px solid #e1e1e1;}
 .truse_pro_info_in .info_address .head h3 { font:20px/75px "microsoft yahei"; color: #ffc73e; text-align: center;}
 .truse_pro_info_in .info_address .form { width: 379px; height: 180px; border: 1px solid #e1e1e1; border-left: 0;}
-.truse_pro_info_in .info_address .form .biaodan { width: 270px; height: 40px; border: 1px solid #e1e1e1; margin: 15px auto 0;}
-.truse_pro_info_in .info_address .form .biaodan span { width: 65px; height: 30px; border-right: 1px solid #e1e1e1; margin-top: 5px; font:16px/30px "microsoft yahei"; color: #adadad; text-align: center;}
-.truse_pro_info_in .info_address .form .biaodan input { width: 180px; border: 0; padding: 0 10px; font:16px/40px "microsoft yahei"; color: #868585;}
-.truse_pro_info_in .info_address .form .sublime input { display: block; width: 145px; height: 40px; border: 0; font:20px/40px "microsoft yahei"; color: #fff; text-align: center; margin: 15px auto 0; background-color: #ffc73e; cursor: pointer;}
+.truse_pro_info_in .info_address .form .input_group { width: 250px; margin: 40px auto 30px;}
+.truse_pro_info_in .info_address .form .input_group .form_control { width: 170px; height: 20px; padding: 6px 10px; border-radius: 4px 0 0 4px; border: 1px solid #ccc; font-family: "microsoft yahei"; color: #555555;}
+/*.truse_pro_info_in .info_address .form .input_group .form_control:focus {border-color: #66afe9; box-shadow:0 0 8px rgba(102,175,233,0,6); outline: 0 none;}*/
+.truse_pro_info_in .info_address .form .input_group span {padding: 6px 12px; height: 20px; border-radius: 0 4px 4px 0; border: 1px solid #ccc; border-left: none 0; background: #eee; font-size: 14px; color: #555555;}
+.truse_pro_info_in .info_address .form .sublime input { display: block; width: 222px; height: 36px; border: 0; font:16px/36px "microsoft yahei"; color: #fff; text-align: center; margin: 15px auto 0; background-color: #ffc73e; cursor: pointer;}
 .truse_pro_info_in .info_address .form .sublime input:hover { background-color: #ff823e;}
 /*信托内页_主要区域*/
 .truse_pro_main { margin: 20px 0 100px;}
@@ -251,7 +266,7 @@
 .truse_pro_main .main_in .truse_pro_tab_hd .tab_hd_item_last { border-right: 1px solid #e1e1e1;}
 .truse_pro_main .main_in .truse_pro_tab_hd .active { border-top: 2px solid #ffc73e; color: #ffc73e; border-bottom-color: #fff; background-color: #fff;}
 .truse_pro_main .main_in .truse_pro_tab_bd { width: 808px; height: 618px; border: 1px solid #e1e1e1; background-color: #fff;}
-.truse_pro_main .main_in .truse_pro_tab_bd .tab_bd_item { display: none;}
+.truse_pro_main .main_in .truse_pro_tab_bd .tab_bd_item { padding: 50px; display: none;}
 .truse_pro_main .main_in .truse_pro_tab_bd .active { display: block;}
 .truse_pro_main .truse_pro_news_page { width: 370px;}
 .truse_pro_main .truse_pro_news_page .news_head { padding-top: 10px; height: 40px; }
@@ -276,7 +291,7 @@
 
 /*关于我们导航*/
 .about_nav { width: 100%; height: 42px; background-color: #FFFFFF; border-bottom: 2px solid #ffc73e; }
-.about_nav_container { width: 1010px; margin: 0 auto;}
+.about_nav_container { width: 870px; margin: 0 auto;}
 .about_nav_container li { float: left; position: relative;}
 .about_nav_container li a { display: block; padding: 0 40px; font: 16px/42px "microsoft yahei"; color: #555555;}
 .about_nav_container li a:hover { color: #ffc73e; }

@@ -1,0 +1,38 @@
+@charset "utf-8";
+/*public*/
+.yb_tit { display: inline-block; font: bold 40px/1 "microsoft yahei"; padding: 0 10px 10px; color: #ffa505; border-bottom: 4px solid #ffa505;
+    position: relative; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
+.yb_tit span { width: 0; height: 0; border: 15px solid #ffa505; border-color: #ffa505 transparent transparent transparent; position: absolute;
+bottom: -31px; left: 50%;}
+.yb_introduce { width: 1020px; margin: 0 auto; font: 18px/1.5 "microsoft yahei"; color: #f2f6ff; text-indent: 2em;}
+
+body { background-color: #061229; }
+.yb_banner { width: 100%; height: 655px; background: url("../imgs/subject/youbeautiful/yb_banner.jpg") no-repeat center top;
+    position: relative;}
+.yb_banner .tit { display: inline-block; font: 30px/1.2 "microsoft yahei"; color: #fff; padding: 10px 40px; border: 2px solid #fff; border-radius: 50px; position: absolute; bottom: 70px; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
+
+/*市场规模*/
+.yb_market { padding-top: 60px; position: relative;}
+.yb_market img { margin: 50px auto;}
+/*产业链*/
+.yb_industry { width: 100%; height: 1300px; background: url("../imgs/subject/youbeautiful/yb_industry_bg.jpg") no-repeat center top;}
+.yb_industry .house { display: block; margin: 40px auto;}
+.yb_industry .brand { font: bold 40px/3 "microsoft yahei"; color: #ffa505; text-align: center; margin-bottom: 80px;}
+.yb_industry .brand_in { width: 1200px; margin: 0 auto;}
+.yb_industry .brand_in img { display: inline-block; float: left; margin: 0 80px;}
+.yb_industry .brand_in .item {}
+.yb_industry .brand_in .item li { font: 18px/4 "Microsoft YaHei"; color: #f2f6ff;}
+/*四大亮点*/
+.yb_bright { width: 100%; height: 890px; background: url("../imgs/subject/youbeautiful/yb_bright.jpg") no-repeat center top;}
+.yb_bright_in .item { width: 925px; height: 130px; margin: 0 auto 20px;}
+.yb_bright_in .tit { width: 210px; height: 130px; border: 1px solid #4855a7; background-color: #282f5b; font:22px/130px "Microsoft YaHei";
+    color: #f9e077; text-align: center;}
+.yb_bright_in .main { width: 650px; height: 60px; padding: 40px 30px 30px; border: 1px solid rgba(72,85,167,0.5); border-left: 0 none; background: rgba(40,47,91,0.5); font:14px/2 "Microsoft YaHei"; color: #ffffff;}
+/*四重风控措施*/
+.yb_risk { width: 100%; height: 860px; padding-top: 80px; background: url("../imgs/subject/youbeautiful/yb_risk_bg.jpg") no-repeat center top;}
+.yb_risk_in { margin-top: 100px; margin-bottom: 80px;}
+.yb_risk_in .item { width: 270px; height: 300px; margin: 0 15px;}
+.yb_risk_in .head { width: 268px; height: 98px; background: #28305a; border: 1px solid #4855a7; text-align: center; font:16px/2 "Microsoft YaHei"; color: #fff}
+.yb_risk_in .main { width: 228px; height: 158px; padding: 20px; background: rgba(31,44,65,.77); border: 1px solid rgba(40,47,91,.77); font:14px/2 "Microsoft YaHei"; color: #fff;}
+.yb_risk .jieshao {font:48px/3 "Microsoft YaHei"; color: #fff; text-align: center;}
+.yb_risk .yb_risk_btn { display: block; width: 325px; height: 97px; background: url("../imgs/subject/youbeautiful/yb_risk_btn.png") no-repeat; font:30px/97px "Microsoft YaHei"; text-align: center; color: #fff; margin: 0 auto;}
