@@ -463,7 +463,43 @@
 .safeGuard_safe_4 .safe_in .pic { height: 340px; margin-bottom: 50px; background-image: url(../imgs/safeGuard/gz_pic.png);}
 .safeGuard_safe_4 .safe_in .txt { margin-top: 100px;}
 
+/*常见问题与最新公告/媒体报道*/
+.notice_question {border-top: 2px solid #ffc73e; padding-top: 20px;}
+.notice_question_in { width: 1198px; margin-bottom: 100px; border: 1px solid #e1e1e1; background-color: #fff;}
+.notice_question_in .sub_tit { width: 169px;}
+.notice_question_in .sub_tit .hollow { width: 169px; height: 29px; border-bottom: 1px solid #e1e1e1;}
+.notice_question_in .sub_tit_item { width: 169px; height: 56px; background-color: #fbfbfa; border-bottom: 1px solid #e1e1e1; font: 18px/56px "microsoft yahei"; color: #787877; text-align: center; cursor: pointer;}
+.notice_question_in .sub_tit_box .active { background-color: #ffc73e; color: #fff;}
+.notice_question_in .sub_main { width: 1028px; min-height: 300px; border-left: 1px solid #e1e1e1;}
+.notice_question_in .sub_main_word { padding-left: 40px; padding-top: 35px;}
+.notice_question_in .sub_main_word .tit { font:bold 24px/2 "microsoft yahei"; color: #ffc73e; border-bottom: 3px solid #e1e1e1;}
+.notice_question_in .sub_main_word .item { height: 20px; padding: 30px 26px 30px 0; border-bottom: 1px dashed #e1e1e1; font: 16px/20px "microsoft yahei";}
+/*常见问题*/
+.notice_question_in .sub_tit_item_help,.notice_question_in .sub_tit_item_help_in { display: block; width: 169px; height: 56px; background-color: #fbfbfa; border-bottom: 1px solid #e1e1e1; font: 18px/56px "microsoft yahei"; color: #787877; text-align: center; cursor: pointer; position: relative;}
+.notice_question_in .sub_tit_item_help i { width: 15px; height: 16px; background: url(../imgs/product/notice_question_type_black.png) no-repeat; position: absolute; top: 22px; right: 10px; -webkit-transform: rotate(180deg); transform: rotate(180deg); -webkit-transition: all .5s; transition: all .5s;}
+.notice_question_in .sub_tit_item_help i.active {-webkit-transform: rotate(0); transform: rotate(0);background: url(../imgs/product/notice_question_type_white.png) no-repeat;}
+.notice_question_in .sub_tit_item_help:hover,.notice_question_in .sub_tit_box_help .activeee { background-color: #ffc73e; color: #fff;}
+.notice_question_in .sub_tit_item_help:hover i {}
+.notice_question_in .sub_tit_item_help_in:hover {background-color: #fff4da;}
+.notice_question_in .sub_tit_item_help_down .active {background-color: #fff4da;}
 
+.notice_question_in .sub_main_content { position: relative;}
+.notice_question_in .sub_main_content .head { padding: 30px 0 20px 0; margin-left: 40px; border-bottom: 3px solid #e1e1e1;}
+.notice_question_in .sub_main_content .head .tit {font: bold 24px/2 "microsoft yahei"; color: #555555; text-align: center;}
+.notice_question_in .sub_main_content .head .time {font: 14px/2 "microsoft yahei"; color: #bababa; text-align: center;}
+.notice_question_in .sub_main_content .bd { padding: 20px 40px 30px 70px;}
+.notice_question_in .sub_main_content .bd .link { width: 160px; margin: 30px auto 0;}
+.notice_question_in .sub_main_content .bd .link a { float: left; font-size: 14px; padding: 4px 8px; border-radius: 2px; background-color: #ffc73e; color: #fff;}
+
+.notice_question_in .sub_main_img { padding: 30px 0 50px 40px;}
+.notice_question_in .sub_main_img .tit { font: bold 24px/2.2 "microsoft yahei"; color: #ffc73e; border-bottom: 3px solid #e1e1e1;}
+.notice_question_in .sub_main_img .item { padding-bottom: 20px; border-bottom: 1px dashed #e1e1e1;}
+.notice_question_in .sub_main_img .item .img { width: 150px; margin-right: 45px; padding-top: 26px;}
+.notice_question_in .sub_main_img .item .main { width: 760px; padding-right: 30px; padding-top: 20px;}
+.notice_question_in .sub_main_img .item .main .title { font:20px/2.2 "microsoft yahei"; color: #555555;}
+.notice_question_in .sub_main_img .item .main .info { font:14px/2.2 "microsoft yahei"; color: #bababa; margin-top: 10px;}
+.notice_question_in .sub_main_img .item .main .info span { margin-right: 60px;}
+.notice_question_in .sub_main_img .item .main_in { font: 14px/2 "microsoft yahei"; color: #747474;}
 
 
 

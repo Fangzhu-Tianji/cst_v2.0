@@ -429,7 +429,50 @@ $(function(){
 		
 	})(jQuery);
 	
-	
+// ================  常见问题与最新公告/媒体报道  ===========	
+	(function($){
+		function fnclick_change(tag){
+			tag.click(function(){
+				$(this).addClass("active").siblings().removeClass("active");
+			})
+		}
+		fnclick_change($(".notice_question_in .sub_tit_item"));
+		// 常见问题
+		/*var offon = 0;
+		$(".notice_question_help_click").click(function(){
+			if(offon == 0) {
+				$(this).children("i").addClass("active");
+				$(".notice_question_in .sub_tit_item_help").siblings("ul").stop().slideDown(500);
+				offon = 1;
+			}
+			else if(offon == 1) {
+				$(this).children("i").removeClass("active");
+				$(".notice_question_in .sub_tit_item_help").siblings("ul").stop().slideUp(500);
+				offon = 0;
+			}
+		})
+		$(".sub_tit_item_help_in").click(function(){
+			$(this).addClass("active").parent().siblings().children(".sub_tit_item_help_in").removeClass("active");
+		});
+		$(".notice_question_help_click_hidden").click(function(){
+			$(".sub_tit_item_help_in").removeClass("active");
+		})*/
+		var offon = 0;
+		$(".notice_question_in .sub_tit_item_help").click(function(){
+			$(".notice_question_in .sub_tit_item_help").removeClass("activeee");
+			$(this).addClass("activeee");
+			if(offon == 0) {
+				$(this).children("i").addClass("active");
+				$(".notice_question_in .sub_tit_item_help").siblings("ul").stop().slideDown(500);
+				offon = 1;
+			}
+			else if(offon == 1) {
+				$(this).children("i").removeClass("active");
+				$(".notice_question_in .sub_tit_item_help").siblings("ul").stop().slideUp(500);
+				offon = 0;
+			}
+		})
+	})(jQuery);
 	
 	
 	

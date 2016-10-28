@@ -341,6 +341,15 @@ a.btn { line-height: inherit; }
 #breadcrumb .path_item { color: #323232;}
 #breadcrumb .path_item:hover { color: #ffb501;}
 
+/*------------------------------------ 分页  ----------------------------------*/
+.pagination { height: 24px; padding: 40px 0; text-align: center; vertical-align: baseline;}
+.pagination .itemss { display: inline-block; margin: 0; padding: 0; width: 24px; height: 24px; margin-right: 6px;}
+.pagination .itemss a { display: block; width: 24px; height: 24px; background-color: pink;}
+.pagination .itemss .page { width: 22px; height: 22px; font-size: 12px; line-height: 22px; border: 1px solid #eeeeee; background-color: #eeeeee; color: #656565; text-align: center;}
+.pagination .itemss .first { background: url(../imgs/public/pagination_bg.png) no-repeat 0 0;}
+.pagination .itemss .pre { background: url(../imgs/public/pagination_bg.png) no-repeat -25px 0;}
+.pagination .itemss .next { background: url(../imgs/public/pagination_bg.png) no-repeat -50px 0;}
+.pagination .itemss .last { background: url(../imgs/public/pagination_bg.png) no-repeat -75px 0;}
 
 
 /* 公共子导航  */
