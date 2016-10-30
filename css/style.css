@@ -463,23 +463,23 @@
 .safeGuard_safe_4 .safe_in .pic { height: 340px; margin-bottom: 50px; background-image: url(../imgs/safeGuard/gz_pic.png);}
 .safeGuard_safe_4 .safe_in .txt { margin-top: 100px;}
 
-/*常见问题与最新公告/媒体报道*/
+/*==================  常见问题与最新公告/媒体报道  ===================*/
 .notice_question {border-top: 2px solid #ffc73e; padding-top: 20px;}
 .notice_question_in { width: 1198px; margin-bottom: 100px; border: 1px solid #e1e1e1; background-color: #fff;}
 .notice_question_in .sub_tit { width: 169px;}
 .notice_question_in .sub_tit .hollow { width: 169px; height: 29px; border-bottom: 1px solid #e1e1e1;}
 .notice_question_in .sub_tit_item { width: 169px; height: 56px; background-color: #fbfbfa; border-bottom: 1px solid #e1e1e1; font: 18px/56px "microsoft yahei"; color: #787877; text-align: center; cursor: pointer;}
 .notice_question_in .sub_tit_box .active { background-color: #ffc73e; color: #fff;}
-.notice_question_in .sub_main { width: 1028px; min-height: 300px; border-left: 1px solid #e1e1e1;}
+.notice_question_in .sub_main { width: 1028px; min-height: 600px; border-left: 1px solid #e1e1e1;}
 .notice_question_in .sub_main_word { padding-left: 40px; padding-top: 35px;}
 .notice_question_in .sub_main_word .tit { font:bold 24px/2 "microsoft yahei"; color: #ffc73e; border-bottom: 3px solid #e1e1e1;}
 .notice_question_in .sub_main_word .item { height: 20px; padding: 30px 26px 30px 0; border-bottom: 1px dashed #e1e1e1; font: 16px/20px "microsoft yahei";}
 /*常见问题*/
 .notice_question_in .sub_tit_item_help,.notice_question_in .sub_tit_item_help_in { display: block; width: 169px; height: 56px; background-color: #fbfbfa; border-bottom: 1px solid #e1e1e1; font: 18px/56px "microsoft yahei"; color: #787877; text-align: center; cursor: pointer; position: relative;}
 .notice_question_in .sub_tit_item_help i { width: 15px; height: 16px; background: url(../imgs/product/notice_question_type_black.png) no-repeat; position: absolute; top: 22px; right: 10px; -webkit-transform: rotate(180deg); transform: rotate(180deg); -webkit-transition: all .5s; transition: all .5s;}
-.notice_question_in .sub_tit_item_help i.active {-webkit-transform: rotate(0); transform: rotate(0);background: url(../imgs/product/notice_question_type_white.png) no-repeat;}
-.notice_question_in .sub_tit_item_help:hover,.notice_question_in .sub_tit_box_help .activeee { background-color: #ffc73e; color: #fff;}
-.notice_question_in .sub_tit_item_help:hover i {}
+.notice_question_in .sub_tit_item_help i.active {-webkit-transform: rotate(0); transform: rotate(0); background: url(../imgs/product/notice_question_type_white.png) no-repeat;}
+.notice_question_in .sub_tit_item_help:hover,.notice_question_in .sub_tit_box_help .active { background-color: #ffc73e; color: #fff;}
+.notice_question_in .sub_tit_item_help:hover i,.notice_question_in .sub_tit_item_help i.activeee {background: url(../imgs/product/notice_question_type_white.png) no-repeat;}
 .notice_question_in .sub_tit_item_help_in:hover {background-color: #fff4da;}
 .notice_question_in .sub_tit_item_help_down .active {background-color: #fff4da;}
 
@@ -501,6 +501,49 @@
 .notice_question_in .sub_main_img .item .main .info span { margin-right: 60px;}
 .notice_question_in .sub_main_img .item .main_in { font: 14px/2 "microsoft yahei"; color: #747474;}
 
+/*==================  投研信息  ===================*/
+/*public推荐区*/
+.research_recommen_in { width: 318px; background-color: #FFFFFF; border: 1px solid #e1e1e1; margin-bottom: 20px;}
+.research_recommen_in .head { height: 31px; padding-left: 12px; padding-top: 10px; border-bottom: 1px solid #e1e1e1;}
+.research_recommen_in .head h2 { font:18px/1.2 "microsoft yahei"; color: #ffc73e; border-left: 3px solid #ffc73e; padding-left: 10px;}
+.research_recommen_in .item { margin: 0 10px; padding: 12px 0; border-bottom: 1px dashed #e1e1e1;}
+.research_recommen_in .item:last-child { border: 0 none;}
+.research_recommen_in .item i { width: 6px; height: 6px; margin: 8px 5px 0 0; border-radius: 100%; background-color: #ffcd54;}
+.research_recommen_in .item .num { width: 20px; height: 20px; margin: 0 7px 0 0; border-radius: 100%; font:14px/20px "microsoft yahei"; color: #ffffff; text-align: center;}
+.research_recommen_in .item .yellow { background-color: #ffcd54;}
+.research_recommen_in .item .gray { background-color: #bfbfbf;}
+.research_recommen_in .item a { max-width: 280px; font:14px/1.6 "microsoft yahei"; color: #656565; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+
+
+.research_banner { width: 100%; min-width: 1200px; height: 360px; background: url(../imgs/product/research_banner.jpg) no-repeat center;}
+.research_cut { height: 75px; width: 100%; background-color: #fff;}
+.research_cut .item_group li { float: left; padding: 20px 60px 0 10px;}
+.research_cut .item_group li a { display: inline-block; font:16px/2 "microsoft yahei"; color: #656565;}
+.research_cut .item_group li a.active { color: #ffc73e; border-bottom: 2px solid #ffc73e;}
+/*主要内容*/
+.research_home {margin-top: 10px; margin-bottom: 40px;}
+.research_home .research_main { width: 858px; min-height: 400px; background-color: #fff; border: 1px solid #e1e1e1;}
+.research_main .item_class { display: none;}
+.research_main .item_class_db { display: block;}
+.research_main .item_main { margin: 0 15px; padding: 22px 0; border-bottom: 1px solid #e1e1e1;}
+.research_main .item_main .pic {margin-right: 20px;}
+.research_main .item_main .info { width: 588px;}
+.research_main .item_main .info .head {margin-bottom: 12px;}
+.research_main .item_main .info .head span { width: 460px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+.research_main .item_main .info .head a {font:20px/40px "microsoft yahei"; color: #656565;}
+.research_main .item_main .info .head em {font:14px/40px "microsoft yahei"; color: #bababa;}
+.research_main .item_main .info .txt {font:14px/2 "microsoft yahei"; color: #bababa;}
+.research_main .item_main .info .txt a {color: #ffb500;}
+/*投研子页*/
+.research_con { border-top: 2px solid #ffc73e; padding-top: 30px; margin-bottom: 40px;}
+.research_content { width: 858px; min-height: 400px; background-color: #fff; border: 1px solid #e1e1e1;}
+.research_content .head { height: 144px; border-bottom: 1px dashed #e1e1e1; padding-left: 20px;}
+.research_content .head .tit { font:24px/3.6 "microsoft yahei"; color: #ffc73e;}
+.research_content .head .gray { font:16px/2 "microsoft yahei"; color: #bababa;}
+.research_content .bd { padding: 30px 40px 20px;}
+.research_content .ft { padding: 40px 0 50px 40px; border-top: 1px dashed #e1e1e1;}
+.research_content .ft .item { font:16px/2 "microsoft yahei"; color: #bababa;}
+.research_content .ft .item a { font:16px/2 "microsoft yahei"; color: #737373;}
 
 
 /*========================  404页面    ============================*/

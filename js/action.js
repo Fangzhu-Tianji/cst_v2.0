@@ -438,42 +438,41 @@ $(function(){
 		}
 		fnclick_change($(".notice_question_in .sub_tit_item"));
 		// 常见问题
-		/*var offon = 0;
-		$(".notice_question_help_click").click(function(){
+		var offon = 0;
+		$(".notice_question_in .sub_tit_item_help1").click(function(){
+			$(this).addClass("active");
+			$(".notice_question_in .sub_tit_item_help2").removeClass("active").children("i").removeClass("activeee");
+			$(".notice_question_in .sub_tit_item_help_in").removeClass("active")
+		})
+		$(".notice_question_in .sub_tit_item_help2").click(function(){
+			$(this).addClass("active");
+			$(".notice_question_in .sub_tit_item_help1").removeClass("active");
 			if(offon == 0) {
-				$(this).children("i").addClass("active");
-				$(".notice_question_in .sub_tit_item_help").siblings("ul").stop().slideDown(500);
+				$(this).children("i").addClass("active")
+				$(".sub_tit_item_help_down").stop().slideDown(500);
 				offon = 1;
 			}
 			else if(offon == 1) {
-				$(this).children("i").removeClass("active");
-				$(".notice_question_in .sub_tit_item_help").siblings("ul").stop().slideUp(500);
+				$(this).children("i").removeClass("active").addClass("activeee");
+				$(".sub_tit_item_help_down").stop().slideUp(500);
 				offon = 0;
 			}
 		})
-		$(".sub_tit_item_help_in").click(function(){
-			$(this).addClass("active").parent().siblings().children(".sub_tit_item_help_in").removeClass("active");
-		});
-		$(".notice_question_help_click_hidden").click(function(){
-			$(".sub_tit_item_help_in").removeClass("active");
-		})*/
-		var offon = 0;
-		$(".notice_question_in .sub_tit_item_help").click(function(){
-			$(".notice_question_in .sub_tit_item_help").removeClass("activeee");
-			$(this).addClass("activeee");
-			if(offon == 0) {
-				$(this).children("i").addClass("active");
-				$(".notice_question_in .sub_tit_item_help").siblings("ul").stop().slideDown(500);
-				offon = 1;
-			}
-			else if(offon == 1) {
-				$(this).children("i").removeClass("active");
-				$(".notice_question_in .sub_tit_item_help").siblings("ul").stop().slideUp(500);
-				offon = 0;
-			}
+		$(".notice_question_in .sub_tit_item_help_in").click(function(){
+			$(this).addClass("active").siblings("li").removeClass("active");
 		})
 	})(jQuery);
 	
+// ================  投研信息  ===========	
+	(function(){
+		var index = 0;
+		$(".research_cut .item_group li").click(function(){
+			$(this).children("a").addClass("active").parent().siblings().children("a").removeClass("active");
+			index = $(this).index();
+			$(".research_main .item_class").eq(index).addClass("item_class_db").siblings().removeClass("item_class_db");
+		})
+		
+	})(jQuery);
 	
 	
 	
