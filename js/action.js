@@ -87,6 +87,46 @@ $(function(){
 		uHover( $('.idx_scroll_ad .scroll3'),timer3,autoPlay3 );
 		
 	})(jQuery);
+	
+//	----------------- 首页理财经理专区(没有用superslide插件)  ------------------
+/*(function(){
+	var width = $(".mg_team").outerWidth(true);
+	var teamNum = $(".mg_team").length;
+	var tag = $(".mg_team").clone(true);
+	var num = 0;
+	$(".mg_main_in ul").append(tag);
+	$(".mg_next").click(function(){
+		next();
+	})
+	$(".mg_prev").click(function(){
+		pre();
+	})
+	function next() {
+		num--;
+		if(num < -teamNum) {
+			$(".mg_main_in ul").css({
+				left: 0
+			})
+			num = -1;
+		}
+		$(".mg_main_in ul").stop().animate({
+			left: num*width
+		},400)
+	}
+	function pre() {
+		num++;
+		if(num > 0) {
+			$(".mg_main_in ul").css({
+				left: -teamNum*width
+			})
+			num = -(teamNum-1);
+		}
+		$(".mg_main_in ul").stop().animate({
+			left: num*width
+		},400)
+	}
+	
+})(jQuery);*/
 
 
 //  --------------------- 信托 ------------------
@@ -470,6 +510,7 @@ $(function(){
 			$(this).children("a").addClass("active").parent().siblings().children("a").removeClass("active");
 			index = $(this).index();
 			$(".research_main .item_class").eq(index).addClass("item_class_db").siblings().removeClass("item_class_db");
+			$(".research_recommen_class").eq(index).addClass("research_recommen_class_db").siblings(".research_recommen_class").removeClass("research_recommen_class_db");
 		})
 		
 	})(jQuery);

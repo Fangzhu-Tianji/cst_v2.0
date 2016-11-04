@@ -30,7 +30,7 @@
 /* 首页投研精选 */
 .idx_super { background-color: #fff;}
 .idx_super .content { height: 150px; padding-top: 20px; }
-.idx_super .content li { width: 230px; height: 134px; margin-right: 12px; float: left; 
+.idx_super .content li { position: relative; width: 230px; height: 134px; margin-right: 12px; float: left; 
 -webkit-transition: all .5s ;
    -moz-transition: all .5s ;
     -ms-transition: all .5s ;
@@ -44,6 +44,8 @@
 	        transform: scale(.95);
 }
 .idx_super .content .last { margin: 0; }
+.idx_super .content li .shadow { width: 190px; height: 48px; padding: 6px 20px 0; background: rgba(0,0,0,.6); position: absolute; bottom: 0; left: 0; overflow: hidden;}
+.idx_super .content li .shadow .txt { font:14px/1.6 "microsoft yahei"; color: #fff;}
 
 /* 首页产品专区 ~公共~ */
 .idx_main { width: 100%; padding-bottom: 50px; background-color: #fbfbfb; /*box-shadow: 0 10px 40px rgba(0,0,0,.1) inset;*/}
@@ -112,8 +114,8 @@
 .mg_title a { float: right; font: 14px/100px "microsoft yahei"; color: #FFFFFF;}
 .mg_title a:hover { text-decoration: underline; }
 .mg_main { width: 1200px; height: 360px; margin-top: 30px;}
-.mg_main_in { width: 1120px; height: 360px; margin: 0 auto; overflow: hidden; /* background-color: pink;*/}
-.mg_main_in ul { width: 3000px; }
+.mg_main_in { width: 1120px; height: 360px; margin: 0 auto; overflow: hidden;/*后加的*/position: relative;}
+.mg_main_in ul { width: 3000px;/*后加的*/position: absolute; top: 0; left: 0;}
 .mg_team { width: 240px; height: 350px; margin: 0 20px; padding-top: 10px; box-shadow: 0 4px 10px rgba(255,255,255,0.2); background: rgba(255,88,88,.65); }
 .mg_team .img { width: 112px; height: 112px; border-radius: 50%; background: url(../imgs/index/main_manager_1.jpg) no-repeat top center; background-size: cover; margin: 0 auto 6px; }
 .mg_team p { margin-left: 60px; color: #fbfbfa; line-height: 1.5; }
@@ -281,6 +283,85 @@
 .truse_pro_main .truse_pro_news_page .news_box_item a { font:14px/45px "microsoft yahei"; color: #323232;}
 .truse_pro_main .truse_pro_news_page .news_box_item a:hover { color: #ff823e;}
 
+/*=============================  insurance(互联网保险)    =====================================*/
+.insur_banner { width: 100%; height: 360px; background: url(../imgs/product/insur_banner.jpg) no-repeat center;}
+.insur_main { width: 1200px; margin: 0 auto; margin-bottom: 60px; padding-top: 20px; background-color: #fff;}
+.insur_main .insur_item { width: 1230px; height: 290px; margin-bottom: 40px;}
+.insur_main .insur_head { width: 500px; height: 290px; margin: 0 10px;}
+.insur_main .insur_head .tit { width: 185px; height: 250px; padding-top: 40px; background-color: #ed154d; position: relative;}
+.insur_main .insur_head .tit h3 { font:40px/1.4 "microsoft yahei"; color: #ffffff; text-align: center;}
+.insur_main .insur_head .tit a { display: inline-block; width: 68px; height: 26px; border: 1px solid #fff; font:14px/26px "microsoft yahei"; text-align: center; color: #fff; position: absolute; bottom: 20px; left: 50%; margin-left: -35px;}
+.insur_main .insur_head .tit a:hover { background: rgba(0,0,0,.2);}
+.insur_main .insur_head .pic { width: 313px; height: 290px; position: relative;}
+.insur_main .insur_head .pic .shade { box-sizing: border-box; width: 100%; height: 100%; padding-top: 46px; position: absolute; top: 0; left: 0; background: rgba(0,0,0,.45);}
+.insur_main .insur_head .pic .shade h4 { font:26px/2.5 "microsoft yahei"; color: #ffffff; text-align: center; color: #fff;}
+.insur_main .insur_info1 .item { width: 196px; height: 278px; padding: 10px 10px 0; border: 1px solid #e1e1e1; margin: 0 14px 0 0;}
+.insur_main .insur_info1 .item h3 { height: 60px; font:16px/1.6 "microsoft yahei"; color: #6e6e6e;}
+.insur_main .insur_info1 .item p { font:14px/40px "microsoft yahei"; color: #323232;}
+.insur_main .insur_info1 .item p span { font:30px/40px "microsoft yahei"; color: #323232;}
+.insur_main .insur_info1 .item a { display: inline-block; width: 70px; height: 24px; margin-top: 20px; border-radius: 4px; background-color: #ed154d; font:14px/24px "microsoft yahei"; color: #fff; text-align: center;}
+.insur_main .insur_info2 { width: 710px; height: 300px;}
+.insur_main .insur_info2 .item { width: 315px; height: 128px; padding: 10px 10px 0; border: 1px solid #e1e1e1; margin: 0 10px 10px 0;}
+.insur_main .insur_info2 .item h3 { height: 40px; max-width: 300px; font:16px/1.6 "microsoft yahei"; color: #6e6e6e; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+.insur_main .insur_info2 .item p { font:14px/40px "microsoft yahei"; color: #323232;}
+.insur_main .insur_info2 .item p span { font:30px/40px "microsoft yahei"; color: #323232;}
+.insur_main .insur_info2 .item a { display: inline-block; width: 70px; height: 24px; margin-top: 8px; border-radius: 4px; background-color: #ed154d; font:14px/24px "microsoft yahei"; color: #fff; text-align: center;}
+/*private各私有的*/
+.insur_main .insur_item1 .insur_head .pic { background: url(../imgs/product/insur_sou_head.jpg) no-repeat;}
+.insur_main .insur_item1 .item1 { background: #f9f9f9 url(../imgs/product/insur_sou_item1.png) no-repeat center bottom;}
+.insur_main .insur_item1 .item2 { background: #f9f9f9 url(../imgs/product/insur_sou_item2.png) no-repeat center bottom;}
+.insur_main .insur_item1 .item3 { background: #f9f9f9 url(../imgs/product/insur_sou_item3.png) no-repeat center bottom;}
+.insur_main .insur_item1 .item p span { color: #ed154d;}
+.insur_main .insur_item2 .insur_head .tit { background-color: #ed8a15;}
+.insur_main .insur_item2 .insur_head .pic { background: url(../imgs/product/insur_zhong_head.jpg) no-repeat;}
+.insur_main .insur_item2 .item1 { background: #f9f9f9 url(../imgs/product/insur_zhong_item1.png) no-repeat center bottom;}
+.insur_main .insur_item2 .item2 { background: #f9f9f9 url(../imgs/product/insur_zhong_item2.png) no-repeat center bottom;}
+.insur_main .insur_item2 .item3 { background: #f9f9f9 url(../imgs/product/insur_zhong_item3.png) no-repeat center bottom;}
+.insur_main .insur_item2 .item4 { background: #f9f9f9 url(../imgs/product/insur_zhong_item4.png) no-repeat center bottom;}
+.insur_main .insur_item2 .item p span { color: #ed8a15;}
+.insur_main .insur_item2 .item a {background-color: #ed8a15;}
+.insur_main .insur_item3 .insur_head .tit { background-color: #466eb8;}
+.insur_main .insur_item3 .insur_head .pic { background: url(../imgs/product/insur_yi_head.jpg) no-repeat;}
+.insur_main .insur_item3 .item1 { background: #f9f9f9 url(../imgs/product/insur_yi_item1.png) no-repeat center bottom;}
+.insur_main .insur_item3 .item2 { background: #f9f9f9 url(../imgs/product/insur_yi_item2.png) no-repeat center bottom;}
+.insur_main .insur_item3 .item3 { background: #f9f9f9 url(../imgs/product/insur_yi_item3.png) no-repeat center bottom;}
+.insur_main .insur_item3 .item p span { color: #466eb8;}
+.insur_main .insur_item3 .item a {background-color: #466eb8;}
+.insur_main .insur_item4 .insur_head .tit { background-color: #2a8f90;}
+.insur_main .insur_item4 .insur_head .pic { background: url(../imgs/product/insur_yiwai_head.jpg) no-repeat;}
+.insur_main .insur_item4 .item1 { background: #f9f9f9 url(../imgs/product/insur_yiwai_item1.png) no-repeat center bottom;}
+.insur_main .insur_item4 .item2 { background: #f9f9f9 url(../imgs/product/insur_yiwai_item2.png) no-repeat center bottom;}
+.insur_main .insur_item4 .item3 { background: #f9f9f9 url(../imgs/product/insur_yiwai_item3.png) no-repeat center bottom;}
+.insur_main .insur_item4 .item4 { background: #f9f9f9 url(../imgs/product/insur_yiwai_item4.png) no-repeat center bottom;}
+.insur_main .insur_item4 .item p span { color: #2a8f90;}
+.insur_main .insur_item4 .item a {background-color: #2a8f90;}
+.insur_main .insur_item5 .insur_head .tit { background-color: #ffc320;}
+.insur_main .insur_item5 .insur_head .pic { background: url(../imgs/product/insur_nian_head.jpg) no-repeat;}
+.insur_main .insur_item5 .item1 { background: #f9f9f9 url(../imgs/product/insur_nian_item1.png) no-repeat center bottom;}
+.insur_main .insur_item5 .item2 { background: #f9f9f9 url(../imgs/product/insur_nian_item2.png) no-repeat center bottom;}
+.insur_main .insur_item5 .item3 { background: #f9f9f9 url(../imgs/product/insur_nian_item3.png) no-repeat center bottom;}
+.insur_main .insur_item5 .item p span { color: #ffc320;}
+.insur_main .insur_item5 .item a {background-color: #ffc320;}
+
+/*==============  insurance_product(互联网保险内页)    ======================*/
+.insurance_product_in { border-top: 1px solid #e1e1e1; padding-top: 20px;}
+.insurance_product_in_white { width: 1200px; padding-top: 14px; background-color: #fff; margin: 0 auto;}
+.insurance_product_item { width: 1170px; height: 186px; border: 1px solid #e1e1e1; margin: 0 auto 20px;}
+.insurance_product_item:hover { border-color: #ffcf10;}
+.insurance_product_item .pic { margin: 8px 6px 0 8px;}
+.insurance_product_item .info .head { width: 919px; height: 70px; border-bottom: 1px solid #e1e1e1;}
+.insurance_product_item .info .head h2 { font:18px/70px "microsoft yahei"; color: #323232; padding-left: 30px;}
+.insurance_product_item .info .main .item { width: 167px; height: 100px;}
+.insurance_product_item .info .main .item h3 { padding-top: 14px; font: 16px/2.6 "microsoft yahei"; color: #b9b9b9; text-align: center;}
+.insurance_product_item .info .main .item p { font: 16px/2.6 "microsoft yahei"; color: #ffc73e; text-align: center;}
+.insurance_product_item .info .main .link {width: 250px; height: 100px; border-left: 1px dashed #e1e1e1; margin-top: 8px;}
+.insurance_product_item .info .main .link p { font:16px/50px "microsoft yahei"; color: #b9b9b9; text-align: center;}
+.insurance_product_item .info .main .link span { font:30px/50px "microsoft yahei"; color: #ffc73e; text-align: center;}
+.insurance_product_item .info .main .link_in { display: block; width: 94px; height: 30px; border: 1px solid #ffc73e; font:14px/30px "microsoft yahei"; color: #ffc73e; text-align: center; margin: 0 auto;}
+/*保险看点*/
+.insurance_product_watch .truse_new_watch { width: 100%;}
+.insurance_product_watch .truse_new_watch_main .page { width: 100%; margin:0;}
+.insurance_product_watch .truse_new_watch_main .page .info { width: 1070px;}
 
 
 
@@ -513,6 +594,9 @@
 .research_recommen_in .item .yellow { background-color: #ffcd54;}
 .research_recommen_in .item .gray { background-color: #bfbfbf;}
 .research_recommen_in .item a { max-width: 280px; font:14px/1.6 "microsoft yahei"; color: #656565; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+/*隐藏和显示*/
+.research_recommen_class { display: none;}
+.research_recommen_class_db { display: block;}
 
 
 .research_banner { width: 100%; min-width: 1200px; height: 360px; background: url(../imgs/product/research_banner.jpg) no-repeat center;}

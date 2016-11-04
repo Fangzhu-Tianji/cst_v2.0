@@ -269,6 +269,12 @@ a.btn { line-height: inherit; }
 #footer .ft_copy { text-align: center; color: #c4c4c4; line-height: 20px; margin-bottom: 20px;}
 #footer .risk_warning { text-align: center; color: #c4c4c4; line-height: 20px;}
 
+/* ----------------------------  footer底部简单区域   ----------------------   */
+#footer_simple { width: 100%; background-color: #333333; color: #c4c4c4;}
+#footer_simple .footer_simple_link { height: 79px; line-height: 80px; border-bottom: 1px dashed rgba(196,196,196,.18); text-align: center;}
+#footer_simple .footer_simple_link a { padding: 0 6px; font-size: 14px; color: #c4c4c4;}
+#footer_simple .footer_simple_link a:hover { color: #ffc73e;}
+#footer_simple .footer_simple_copy { height: 75px; line-height: 75px; text-align: center;}
 
 /*---------------------- 侧边导航  -------------------*/
 #fix_sidebar { width: 80px; height: 182px; padding-top: 48px; padding-left: 2px; position: fixed; bottom: 110px; left: 50%; margin-left: 610px; background: url(../imgs/public/fix_sidebar.png) no-repeat 0 0;}
