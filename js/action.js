@@ -87,6 +87,13 @@ $(function(){
 		uHover( $('.idx_scroll_ad .scroll3'),timer3,autoPlay3 );
 		
 	})(jQuery);
+//	----------------- 首页nav导航区域（hover显示） ------------------
+	(function() {
+		$("#nav .nav_item .main").hover(function() {
+			$(this).children(".menu_tree").stop().slideToggle(400);
+		})
+	})(jQuery);
+	
 	
 //	----------------- 首页理财经理专区(没有用superslide插件)  ------------------
 /*(function(){
@@ -130,7 +137,7 @@ $(function(){
 
 
 //  --------------------- 信托 ------------------
-(function(){
+/*(function(){
 	var num = 0;
 	$('.truse_pro_main .truse_pro_tab_hd .tab_hd_item').click(function(){
 		num = $(this).index();
@@ -142,7 +149,7 @@ $(function(){
 	};
 	
 	
-})(jQuery);
+})(jQuery);*/
 	
 
 //	------------------------- 关于我们_管理团队   ------------------------

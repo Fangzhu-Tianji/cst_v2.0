@@ -21,7 +21,6 @@
 .idx_scroll_ad .scroll li a { font: 14px/60px "microsoft yahei"; color: #323232; }
 .idx_scroll_ad .scroll li a:hover { color: #ffca49; }
 .idx_scroll_ad .scroll i { width: 1px; height: 16px; background-color: #e1e1e1; margin-top: 22px; }
-
 .idx_scroll_ad .scroll1 span { width: 50px; height: 28px; background: url(../imgs/index/idx_scroll_ad.png) no-repeat 0 0; margin-top: 16px;}
 .idx_scroll_ad .scroll2 span { width: 45px; height: 39px; background: url(../imgs/index/idx_scroll_ad.png) no-repeat 0 -28px; margin-top: 10px;}
 .idx_scroll_ad .scroll3 span { width: 118px; height: 23px; background: url(../imgs/index/idx_scroll_ad.png) no-repeat 0 -67px; margin-top: 20px;}
@@ -262,14 +261,22 @@
 .truse_pro_info_in .info_address .form .sublime input:hover { background-color: #ff823e;}
 /*信托内页_主要区域*/
 .truse_pro_main { margin: 20px 0 100px;}
-.truse_pro_main .main_in { width: 810px;}
-.truse_pro_main .main_in .truse_pro_tab_hd { height: 50px;}
+.truse_pro_main .main_in { width: 820px;}
+.truse_pro_main .main_in .truse_pro_tab_bd { width: 1130px; min-height: 550px; padding: 20px; border: 1px solid #e1e1e1; background-color: #fff;}
+/*.truse_pro_main .main_in .truse_pro_tab_hd { height: 50px;}
 .truse_pro_main .main_in .truse_pro_tab_hd .tab_hd_item { width: 150px; height: 49px; background-color: #fbfbfb; border: 1px solid #e1e1e1; margin-bottom: -1px; border-right: 0; font:20px/50px "microsoft yahei"; color: #868585; text-align: center; cursor: pointer;}
 .truse_pro_main .main_in .truse_pro_tab_hd .tab_hd_item_last { border-right: 1px solid #e1e1e1;}
-.truse_pro_main .main_in .truse_pro_tab_hd .active { border-top: 2px solid #ffc73e; color: #ffc73e; border-bottom-color: #fff; background-color: #fff;}
-.truse_pro_main .main_in .truse_pro_tab_bd { width: 808px; height: 618px; border: 1px solid #e1e1e1; background-color: #fff;}
-.truse_pro_main .main_in .truse_pro_tab_bd .tab_bd_item { padding: 50px; display: none;}
-.truse_pro_main .main_in .truse_pro_tab_bd .active { display: block;}
+.truse_pro_main .main_in .truse_pro_tab_hd .active { border-top: 2px solid #ffc73e; color: #ffc73e; border-bottom-color: #fff; background-color: #fff;}*/
+.truse_pro_main .main_in .truse_pro_tab_bd02 { width: 820px;}
+.truse_pro_main .main_in .truse_pro_tab_bd02 .tab_bd_item { width: 818px; min-height: 248px; margin-bottom: 10px; border: 1px solid #e1e1e1; background-color: #fff;}
+.truse_pro_main .main_in .truse_pro_tab_bd02 .tab_bd_item .head { height: 30px; margin-top: 30px;}
+.truse_pro_main .main_in .truse_pro_tab_bd02 .tab_bd_item .head img { margin: 0 10px;}
+.truse_pro_main .main_in .truse_pro_tab_bd02 .tab_bd_item .head .txt { width: 768px; height: 30px; border-bottom: 1px solid #e1e1e1;}
+.truse_pro_main .main_in .truse_pro_tab_bd02 .tab_bd_item .head .tit { display: inline-block; font: 20px/1 "microsoft yahei"; color: #ffc73e; border-bottom: 1px solid #ffc73e; padding-bottom: 10px;}
+.truse_pro_main .main_in .truse_pro_tab_bd02 .tab_bd_item .mask { margin-top: 40px;}
+.truse_pro_main .main_in .truse_pro_tab_bd02 .tab_bd_item .mask img { display: block; margin: 0 auto;}
+.truse_pro_main .main_in .truse_pro_tab_bd02 .tab_bd_item .mask p { font: 16px/2 "microsoft yahei"; color: #999999; text-align: center;}
+.truse_pro_main .main_in .truse_pro_tab_bd02 .tab_bd_item .show { padding: 10px;}
 .truse_pro_main .truse_pro_news_page { width: 370px;}
 .truse_pro_main .truse_pro_news_page .news_head { padding-top: 10px; height: 40px; }
 .truse_pro_main .truse_pro_news_page .news_head h2 { font:20px/40px "microsoft yahei"; color: #ffc73e;}
@@ -337,9 +344,9 @@
 .insur_main .insur_item4 .item a {background-color: #2a8f90;}
 .insur_main .insur_item5 .insur_head .tit { background-color: #ffc320;}
 .insur_main .insur_item5 .insur_head .pic { background: url(../imgs/product/insur_nian_head.jpg) no-repeat;}
-.insur_main .insur_item5 .item1 { background: #f9f9f9 url(../imgs/product/insur_nian_item1.png) no-repeat center bottom;}
-.insur_main .insur_item5 .item2 { background: #f9f9f9 url(../imgs/product/insur_nian_item2.png) no-repeat center bottom;}
-.insur_main .insur_item5 .item3 { background: #f9f9f9 url(../imgs/product/insur_nian_item3.png) no-repeat center bottom;}
+.insur_main .insur_item5 .item1 { background: #f9f9f9 url(../imgs/product/insur_nian_item1.jpg) no-repeat center bottom;}
+.insur_main .insur_item5 .item2 { background: #f9f9f9 url(../imgs/product/insur_nian_item2.jpg) no-repeat center bottom;}
+.insur_main .insur_item5 .item3 { background: #f9f9f9 url(../imgs/product/insur_nian_item3.jpg) no-repeat center bottom;}
 .insur_main .insur_item5 .item p span { color: #ffc320;}
 .insur_main .insur_item5 .item a {background-color: #ffc320;}
 
