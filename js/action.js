@@ -1,7 +1,7 @@
 $(function(){
 
 	//	-------------------------- 首页banner底部滚轮start  -----------------------
-	(function(){
+	/*(function(){
 		var s1Text = [
 			{ 'url':'###','title':'公告：热烈庆祝财视通官网正式上线！！！！热烈庆祝财视通官网正式上线！！！' },
 			{ 'url':'###','title':'公告：热烈庆祝财视通官网正式！' },
@@ -86,7 +86,7 @@ $(function(){
 		uHover( $('.idx_scroll_ad .scroll2'),timer2,autoPlay2 );
 		uHover( $('.idx_scroll_ad .scroll3'),timer3,autoPlay3 );
 		
-	})(jQuery);
+	})(jQuery);*/
 //	----------------- 首页nav导航区域（hover显示） ------------------
 	(function() {
 		$("#nav .nav_item .main").hover(function() {

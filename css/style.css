@@ -29,7 +29,7 @@
 /* 首页投研精选 */
 .idx_super { background-color: #fff;}
 .idx_super .content { height: 150px; padding-top: 20px; }
-.idx_super .content li { position: relative; width: 230px; height: 134px; margin-right: 12px; float: left; 
+.idx_super .content li { position: relative; width: 230px; height: 134px; margin-right: 12px; float: left;
 -webkit-transition: all .5s ;
    -moz-transition: all .5s ;
     -ms-transition: all .5s ;
@@ -119,7 +119,7 @@
 .mg_team .img { width: 112px; height: 112px; border-radius: 50%; background: url(../imgs/index/main_manager_1.jpg) no-repeat top center; background-size: cover; margin: 0 auto 6px; }
 .mg_team p { margin-left: 60px; color: #fbfbfa; line-height: 1.5; }
 .mg_team .vip li {display: block; width: 11px; height: 10px; margin: 6px 2px 0 2px; background: url(../imgs/index/idx_main.png) -26px -28px; float: left; }
-.mg_team .bottom { height: 80px; padding: 10px 20px; margin-top: 10px; border-top: 1px solid #ffbdbb; } 
+.mg_team .bottom { height: 80px; padding: 10px 20px; margin-top: 10px; border-top: 1px solid #ffbdbb; }
 .mg_team .bottom p {
 	margin: 0;
 	line-height: 2;
@@ -175,7 +175,7 @@
 .truse_light .page span { font: 16px/100px "microsoft yahei"; color: #323232; padding-left: 10px;}
 /*truse_hot*/
 .truse_hot .container { width: 1224px; margin: 20px auto;}
-.truse_hot .container li { float: left; width: 280px; height: 160px; margin-right: 26px; overflow: hidden; 
+.truse_hot .container li { float: left; width: 280px; height: 160px; margin-right: 26px; overflow: hidden;
 -webkit-transition: all .5s ;
    -moz-transition: all .5s ;
     -ms-transition: all .5s ;
@@ -241,7 +241,7 @@
 .truse_pro_info { margin: 20px auto;}
 .truse_pro_info_in { width: 100%; border-top: 2px solid #ffc73e; background-color: #fff;}
 .truse_pro_info_in .info_main .head { width: 818px; height: 75px; border: 1px solid #e1e1e1; border-width: 0 1px;}
-.truse_pro_info_in .info_main .head h2 { font: 26px/75px "microsoft yahei"; color: #ffc73e; margin-left: 20px;}
+.truse_pro_info_in .info_main .head h2 { font: 26px/75px "microsoft yahei"; color: ##333333; margin-left: 20px; max-width:500px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
 .truse_pro_info_in .info_main .head .type { width: 91px; height: 28px; margin: 23px 20px 0; overflow: hidden;}
 .truse_pro_info_in .info_main .head .subject { display: inline-block; font-size: 16px; padding: 4px 6px; color: #ffc73e; border: 1px solid #ffc73e; margin-top: 21px;}
 .truse_pro_info_in .info_main .info { width: 818px; height: 150px; padding-top: 30px; border: 1px solid #e1e1e1;}
@@ -278,7 +278,8 @@
 .truse_pro_main .main_in .truse_pro_tab_bd02 .tab_bd_item .mask p { font: 16px/2 "microsoft yahei"; color: #999999; text-align: center;}
 .truse_pro_main .main_in .truse_pro_tab_bd02 .tab_bd_item .show { padding: 10px;}
 .truse_pro_main .truse_pro_news_page { width: 370px;}
-.truse_pro_main .truse_pro_news_page .news_head { padding-top: 10px; height: 40px; }
+.truse_pro_main .truse_pro_news_page:first-child {margin-top:-12px;}
+.truse_pro_main .truse_pro_news_page .news_head { /*padding-top: 10px;*/ height: 40px; }
 .truse_pro_main .truse_pro_news_page .news_head h2 { font:20px/40px "microsoft yahei"; color: #ffc73e;}
 .truse_pro_main .truse_pro_news_page .news_head a { font:16px/40px "microsoft yahei"; color: #ffc73e;}
 .truse_pro_main .truse_pro_news_page .news_box { width: 368px; height: 282px; border: 1px solid #e1e1e1; border-top: 2px solid #ffc73e; background-color: #fff;}
@@ -649,12 +650,12 @@
 .gong_er .wrap .rate {font:bold 40px/2 "microsoft yahei"; color:#ff6600; text-align:center;}
 .gong_er .wrap .goup {width:130px; height:26px; border:1px solid #ffb500; border-radius:20px; font:14px/26px "microsoft yahei"; text-align:center; color:#ffb500; margin:0 auto;}
 .gong_er .wrap .in {font:14px/6 "microsoft yahei"; color:#666666; text-align:center; padding:0 20px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
-.gong_er .wrap .link {width:260px; height:34px; background-color:pink; margin:0 auto;}
+.gong_er .wrap .link {width:260px; height:34px; margin:0 auto;}
 .gong_er .wrap .link a {display:block; width:120px; height:34px; border-radius:4px; background-color:#ea2a2a; font:16px/34px "microsoft yahei"; color:#FFFFFF; text-align:center;}
 .gong_er .wrap .link a.sheng {float:left; width:118px; height:32px; border:1px solid #ea2a2a; background-color:#FFFFFF; color:#ea2a2a;}
 .gong_er .wrap .link a.ding {float:right;}
 /*基金超市*/
-.gong_mark_wrap {width:1198px; height:580px; background-color:#FFFFFF; border:1px solid #e1e1e1; margin-top:20px;}
+.gong_mark_wrap {width:1198px; background-color:#FFFFFF; border:1px solid #e1e1e1; margin-top:20px;}
 .gong_mark_wrap .itme_hd .tab_control {float:left;}
 .gong_mark_wrap .itme_hd {width:100%; height:44px; border-bottom:1px solid #e1e1e1; background-color:#fafafa;}
 .gong_mark_wrap .itme_hd .tab_control_item {float:left; height:44px; margin-bottom:-1px; border-bottom:1px solid #e1e1e1;}
@@ -678,9 +679,261 @@
 .gong_mark_wrap .itme_bd table tr .arrow i.up {background:url(../imgs/gongfund/gongfund_up.png) no-repeat;}
 
 .gong_mark_wrap .itme_bd table tr td {border-bottom:1px dashed #e9e9e9; border-right:1px dashed #e9e9e9; height:50px; font-size:14px; color:#333333; vertical-align:middle; text-align:center;}
+.gong_mark_wrap .itme_bd table tr:nth-last-child(1)  td{border-bottom:none;}
 .gong_mark_wrap .itme_bd table tr td .name {display:block; width:136px; padding:0 10px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
 .gong_mark_wrap .itme_bd table tr td .up {color:#ff6600;}
 .gong_mark_wrap .itme_bd table tr td .dowm {color:#00af00;}
+.gong_mark_wrap .itme_bd table tr td .sheng {display:inline-block; width:42px; height:20px; border-radius:2px; border:1px solid #ea2a2a; font:14px/20px "microsoft yahei"; color:#ea2a2a; text-align:center;}
+.gong_mark_wrap .itme_bd table tr td .ding {display:inline-block; width:44px; height:22px; border:none; border-radius:2px; background-color:#ea2a2a; font:14px/22px "microsoft yahei"; color:#fff; text-align:center;}
+.gong_mark_wrap .itme_bd table tr td .danger {display:inline-block; width:44px; height:22px; border:none; border-radius:2px; background-color:#cccccc; font:14px/22px "microsoft yahei"; color:#fff; text-align:center;}
+.gong_mark .company_info {font:14px/40px "microsoft yahei"; color:#999999; padding-left:20px;}
+
+/*===================  公募基金首页弹窗     ================*/
+.gong_pop {width:100%; height:100%; background:rgba(0,0,0,.5); position:fixed; top:0; left:0; z-index:999; display:none;}
+.gong_pop_in {width:760px; height:460px; border-radius:4px; background:#fff; position:absolute; top:0; bottom:0; left:0; right:0; margin:auto;}
+.gong_pop .left {float:left; width:240px; height:460px;}
+.gong_pop .center {float:left; width:460px; height:450px; padding-top:10px; padding-left:20px;}
+.gong_pop .right {float:left; width:40px; height:460px;}
+.gong_pop .center .tit {font:14px/5 "microsoft yahei"; color:#333333; text-indent:2em;}
+.gong_pop .center .wrap {margin-bottom:10px;}
+.gong_pop .center .pic {float:left; width:28px; margin-top:4px;}
+.gong_pop .center .write {float:left; width:432px; font:14px/2 "microsoft yahei"; color:#333333;}
+.gong_pop .center .link {text-align:center; padding-top:20px;}
+.gong_pop .center .link .again {display:inline-block; width:124px; height:32px; background-color:#fff; border:1px solid #ea2a2a; border-radius:2px; font:16px/34px "microsoft yahei"; color:#ea2a2a; text-align:center; margin-right:20px;}
+.gong_pop .center .link .know {display:inline-block; width:126px; height:34px; background-color:#ea2a2a; border:none; border-radius:2px; font:16px/34px "microsoft yahei"; color:#fff; text-align:center;}
+.gong_pop .right .box {width:40px; height:24px; background-color:#f35557; border-top-left-radius:30px; border-bottom-left-radius:30px; margin-top:14px;}
+.gong_pop .right .box .close {font:bold 20px/20px "microsoft yahei"; color:#fff; margin-left:6px; cursor:pointer;}
+
+/*===================  公募基金内页     ================*/
+.truse_pro_info_in .info_address .form .gongfund_sublime {text-align:center;}
+.truse_pro_info_in .info_address .form .gongfund_sublime a {display:inline-block; width:100px; height:36px; background-color:#ffc73e; color:#fff; font:16px/36px "microsoft yahei"; text-align:center; margin:0 4px;}
+.truse_pro_info_in .info_address .form .gongfund_sublime a:hover {background-color:#FF823E;}
+.truse_pro_main .gongfund_in_wrap {float:left; width:818px; border:1px solid #e1e1e1; background-color:#fff;}
+.truse_pro_main .gongfund_in_wrap .gongfund_in_wrap_hd .tab_hd_item {float:left; width:136px; height:49px; background-color:#fbfbfb; text-align:center; border:1px solid #e1e1e1; border-top:none; border-left:none;}
+.truse_pro_main .gongfund_in_wrap .gongfund_in_wrap_hd .tab_hd_item:nth-last-child(1) {border-right:none; width:133px;}
+.truse_pro_main .gongfund_in_wrap .gongfund_in_wrap_hd .tab_hd_item a {display:block; font:20px/50px "microsoft yahei"; color:#868585;}
+.truse_pro_main .gongfund_in_wrap .gongfund_in_wrap_hd .active {margin-top:-1px; height:48px; border-top:2px solid #ffc73e; color:#ffc73e; background-color:#fff; border-bottom-color:#fff;}
+
+.gongfund_in_wrap_bd .tab_bd_item {display:none;}
+.gongfund_in_wrap_bd .active {display:block;}
+.gongfund_in_wrap_bd .tab_bd_item .bd_wrap {padding:20px;}
+.gongfund_in_wrap_bd .tab_bd_item01 .chart {width:100%; height:440px; background-color:pink;}
+.gongfund_in_wrap_bd .tab_bd_item01 .table .tit {font:18px/40px "microsoft yahei"; color:#333;}
+.gongfund_in_wrap_bd .tab_bd_item01 .table_in {width:100%;}
+.gongfund_in_wrap_bd .tab_bd_item01 .table_in tr {height:40px;}
+.gongfund_in_wrap_bd .tab_bd_item01 .table_in th {border:1px solid #ddd; background-color:#EEEEEE; color:#333; font-weight:600;}
+.gongfund_in_wrap_bd .tab_bd_item01 .table_in td {border:1px solid #ddd; background-color:#fff; color:#666; font-weight:normal; text-align:center;}
+.gongfund_in_wrap_bd .tab_bd_item02 .table {width:100%; border:1px solid #ddd; text-align:left; color:#333;}
+.gongfund_in_wrap_bd .tab_bd_item02 .table th {padding: 17px 30px;line-height: 160%;text-align: center;width: 150px;font-size: 16px;background: #eee;border-bottom: 1px solid #fff;font-weight: normal;}
+.gongfund_in_wrap_bd .tab_bd_item02 .table td {padding: 17px 30px;line-height: 160%;font-size: 16px;background: #fff;border-bottom: 1px solid #eee;}
+.gongfund_in_wrap_bd .tab_bd_item02 .table tr:nth-last-child(1) th {border-bottom:none;}
+.gongfund_in_wrap_bd .tab_bd_item02 .table tr:nth-last-child(1) td {border-bottom:none;}
+.gongfund_in_wrap_bd .tab_bd_item02 .wrap_box {padding: 30px 0;border-bottom: 1px solid #eee;}
+.gongfund_in_wrap_bd .tab_bd_item02 .wrap_box h3 {border-left: 3px solid #f23835;color: #333;font-size: 18px;height: 18px;line-height: 18px;padding-left: 10px;font-weight: normal;}
+.gongfund_in_wrap_bd .tab_bd_item02 .wrap_box p {font-size: 16px;line-height: 160%;margin-top: 15px;color: #666;}
+
+.gongfund_in_wrap_bd .tab_bd_item03 .jjjl_box .jl_tu { width:136px; margin-left:30px; text-align:center; float:left; font-size:20px; color:#999;}
+.gongfund_in_wrap_bd .tab_bd_item03 .jjjl_box .jl_tu strong { font-size:24px; color:#333;}
+.gongfund_in_wrap_bd .tab_bd_item03 .jjjl_box .jl_tu .rw_box { width:136px; height:136px; border-radius:136px; overflow:hidden; margin-bottom:10px; margin-top:5px;}
+.gongfund_in_wrap_bd .tab_bd_item03 .jjjl_box .jl_tu .rw_box img { width:136px; height:136px;}
+.gongfund_in_wrap_bd .tab_bd_item03 .jjjl_box .rw_js { float:left; width:570px; margin-left:40px; font-size:16px; color:#666; line-height:30px;}
+.gongfund_in_wrap_bd .tab_bd_item03 .glls_box { border-top:1px solid #eee; margin-top:20px;}
+.gongfund_in_wrap_bd .tab_bd_item03 .glls_box .col333 {color:#333;}
+.gongfund_in_wrap_bd .tab_bd_item03 .glls_box .gl_tit { font-size:16px; line-height:45px; height:45px; text-align:center; font-weight:bold;}
+.gongfund_in_wrap_bd .tab_bd_item03 .glls_box .jj_bg { background:url(../imgs/gongfund/gongfund_in_tab_lc_bg.png) repeat-y center top;}
+.gongfund_in_wrap_bd .tab_bd_item03 .glls_box .jj_bg .sj_ico { width:25px; height:25px; margin:0 auto; background:url(../imgs/gongfund/gongfund_in_tab_rw_lc.png) no-repeat center;}
+.gongfund_in_wrap_bd .tab_bd_item03 .glls_box .jj_bg .ls_list li { float:left; width:50%;}
+.gongfund_in_wrap_bd .tab_bd_item03 .glls_box .jj_bg .ls_list li .jl_list {margin-top:30px;}
+.gongfund_in_wrap_bd .tab_bd_item03 .glls_box .jj_bg .ls_list li .jl_list dt { margin-bottom:10px;}
+.gongfund_in_wrap_bd .tab_bd_item03 .glls_box .jj_bg .ls_list li .jl_list dt span { display:inline-block; padding:0 16px; height:36px; background:#fe7914; font-size:16px; color:#fff; line-height:36px; text-align:right;}
+.gongfund_in_wrap_bd .tab_bd_item03 .glls_box .jj_bg .ls_list li .jl_list dt span.rt { border-radius:0 36px 36px 0;}
+.gongfund_in_wrap_bd .tab_bd_item03 .glls_box .jj_bg .ls_list li .jl_list dt span.lf { border-radius:36px 0 0 36px;}
+.gongfund_in_wrap_bd .tab_bd_item03 .glls_box .jj_bg .ls_list li .jl_list dd { line-height:30px; height:30px; padding:0 16px; font-size:14px; color:#999; background:url(../imgs/gongfund/gongfund_in_tab_ls_list.png) no-repeat; }
+.gongfund_in_wrap_bd .tab_bd_item03 .glls_box .jj_bg .ls_list li .jl_list dd.bg_lf { background-position:right center;margin-right:14px;}
+.gongfund_in_wrap_bd .tab_bd_item03 .glls_box .jj_bg .ls_list li .jl_list dd.bg_rt { background-position:left center;margin-left:14px;}
+.gongfund_in_wrap_bd .tab_bd_item03 .glls_box .jj_bg .sj_bot { width:11px; height:11px; margin:0 auto; background:url(../imgs/gongfund/gongfund_in_tab_rw_lc01.png) no-repeat center;}
+
+.gongfund_in_wrap_bd .tab_bd_item04 .table {width:100%; border:1px solid #ddd; text-align:left; color:#333;}
+.gongfund_in_wrap_bd .tab_bd_item04 .table th {padding: 17px 30px;line-height: 160%;text-align: center;width: 150px;font-size: 16px;background: #eee;border-bottom: 1px solid #fff;font-weight: normal;}
+.gongfund_in_wrap_bd .tab_bd_item04 .table td {padding: 17px 30px;line-height: 160%;font-size: 16px;background: #fff;border-bottom: 1px solid #eee;}
+.gongfund_in_wrap_bd .tab_bd_item04 .table tr:nth-last-child(1) th {border-bottom:none;}
+.gongfund_in_wrap_bd .tab_bd_item04 .table tr:nth-last-child(1) td {border-bottom:none;}
+
+.gongfund_in_wrap_bd .tab_bd_item05 .tit {font-size: 18px;line-height: 18px;height: 18px;padding: 15px 0;}
+.gongfund_in_wrap_bd .tab_bd_item05 .zichan .pic {float:left; width:200px; height:250px;background-color:pink;}
+.gongfund_in_wrap_bd .tab_bd_item05 .zichan .tab {float:right; width:560px;}
+.gongfund_in_wrap_bd .tab_bd_item05 table {width:100%; border:1px solid #ddd;}
+.gongfund_in_wrap_bd .tab_bd_item05 thead { height:50px; background:#eee; line-height:50px;}
+.gongfund_in_wrap_bd .tab_bd_item05 thead th { font-size:16px;font-weight:normal; border-right:1px solid #fff;}
+.gongfund_in_wrap_bd .tab_bd_item05 tbody td { height:50px; font-size:14px; width:33.33%; line-height:50px; border-bottom:1px solid #eee; border-right:1px solid #eee; color:#999; text-align:center;}
+.gongfund_in_wrap_bd .tab_bd_item05 tbody tr:hover { background:#fbfbfb;}
+.gongfund_in_wrap_bd .tab_bd_item05 thead th:nth-last-child(1) {border-right:none;}
+.gongfund_in_wrap_bd .tab_bd_item05 thead td:nth-last-child(1) {border-right:none;}
+
+.gongfund_in_wrap_bd .tab_bd_item06 .tit {font-size: 18px;line-height: 18px;height: 18px;padding: 15px 0; color:#333;}
+.gongfund_in_wrap_bd .tab_bd_item06 .dis table {width:100%; border:1px solid #ddd; color:#666;}
+.gongfund_in_wrap_bd .tab_bd_item06 .dis table th {padding: 17px 30px;line-height: 160%;text-align: center;width: 150px;font-size: 16px;background: #eee;border-bottom: 1px solid #fff;font-weight: normal;}
+.gongfund_in_wrap_bd .tab_bd_item06 .dis table td {padding: 17px 30px;line-height: 160%;font-size: 16px;background: #fff;border-bottom: 1px solid #eee;}
+.gongfund_in_wrap_bd .tab_bd_item06 .aline table {width:100%; border:1px solid #ddd; color:#666;}
+.gongfund_in_wrap_bd .tab_bd_item06 .aline table tr {height:40px;}
+.gongfund_in_wrap_bd .tab_bd_item06 .aline table th {font-size:16px; width:50%; font-weight: normal; border-right: 1px solid #fff; color:#333; background-color:#eee;}
+.gongfund_in_wrap_bd .tab_bd_item06 .aline table td {height: 40px;line-height: 40px;font-size: 14px;border-bottom: 1px solid #eee;border-right: 1px solid #eee;color: #999;text-align: center;}
+.gongfund_in_wrap_bd .tab_bd_item06 .aline table th:nth-last-child(1) {border-right:none;}
+.gongfund_in_wrap_bd .tab_bd_item06 .warn {font-size:12px; color:#999; margin-top:10px;}
+.gongfund_in_wrap_bd .tab_bd_item06 .jsgs_box {padding:15px 0;}
+.gongfund_in_wrap_bd .tab_bd_item06 .jsgs_box dt {font-size:16px; line-height:22px; color:#f13835;}
+.gongfund_in_wrap_bd .tab_bd_item06 .jsgs_box dd {font-size:16px; line-height:22px; color:#666; margin-top:5px;}
+
+/*===================  gong_money(关于金钱)     ================*/
+/*common*/
+.gong_money {width:1198px; height:698px; background-color:#fff; border:1px solid #e8e8e8; border-top:2px solid #d0111b; margin:20px auto 40px;}
+.gong_money .gong_money_head {height:55px; padding-left:20px; border-bottom:1px dashed #e8e8e8;}
+.gong_money .gong_money_head .tit {float:left; font:22px/56px "microsoft yahei"; color:#d0111b;}
+.gong_money .gong_money_head .line {float:left; width:2px; height:20px; background-color:#666666; margin:19px 20px 0;}
+.gong_money .gong_money_head .info {float:left; font:18px/56px "microsoft yahei"; color:#666666;}
+/*定投*/
+.gong_money_ding {width:900px; height:470px; margin:40px auto;}
+.gong_money_ding .wran {font:14px/1.4 "microsoft yahei"; color:#666666; text-align:center;}
+.gong_money_ding .bank {height:60px; padding:0 30px; background-color:#fff; border:1px solid #ccc;}
+.gong_money_ding .bank .pic {float:left; width:100px; height:30px; margin-top:15px; margin-right:50px;}
+.gong_money_ding .bank .list {float:left; font:14px/60px "microsoft yahei"; color:#666666;}
+.gong_money_ding .bank .num {float:right; font:14px/60px "microsoft yahei"; color:#666666;}
+.gong_money_ding .form {margin-top:30px; height:380px;}
+.gong_money_ding .form .wrap {margin-bottom:10px; height:40px;}
+.gong_money_ding .form .wrap .tit {float:left; width:300px; height:40px; margin-right:10px;}
+.gong_money_ding .form .wrap .tit p {float:right; font:14px/40px "microsoft yahei";}
+.gong_money_ding .form .wrap .main {float:left;}
+.gong_money_ding .form .wrap .inp {width:270px; height:36px; position:relative; margin-top:2px;}
+.gong_money_ding .form .wrap .inp input {display:block; width:248px; height:34px; padding:0 10px; border:1px solid #dedede; color:#666;}
+.gong_money_ding .form .wrap .inp span {font:14px/36px "microsoft yahei"; color:#666; position:absolute; right:10px; top:0;}
+.gong_money_ding .form .wrap .rate span {float:left; font:14px/40px "microsoft yahei"; color:#666666; text-decoration: line-through; margin:0 10px;}
+.gong_money_ding .form .wrap .rate p {float:left; font:14px/40px "microsoft yahei"; color:#ea2a2a; margin:0 10px;}
+.gong_money_ding .form .wrap .rate .yuan {float:left; width:64px; height:24px; border:1px solid #ff8800; border-radius:2px; font:14px/24px "microsoft yahei"; color:#ff8800; text-align:center; margin:6px 10px 0;}
+.gong_money_ding .form .wrap .radio label {font:14px/40px "microsoft yahei"; color:#333; margin:0 10px; cursor:pointer;}
+.gong_money_ding .form .wrap .radio input {vertical-align: middle; margin-top:-4px;}
+.gong_money_ding .form .wrap .select {margin:10px;}
+.gong_money_ding .form .wrap .check {font:14px/40px "microsoft yahei"; color:#666666; padding-left:10px;}
+.gong_money_ding .form .wrap .check input {vertical-align: middle; margin-top:-2px;}
+.gong_money_ding .form .wrap .check span a {color:#0069df;}
+.gong_money_ding .form .wrap .sublime {display:block; width:270px; height:40px; border-radius:4px; background-color:#ea2a2a; font:18px/40px "microsoft yahei"; color:#fff; text-align:center; letter-spacing:10px;}
+/*购买*/
+.gong_money_buy01 {width:900px; height:470px; margin:50px auto; display:block;}
+.gong_money_buy01 .wran {font:14px/1.4 "microsoft yahei"; color:#666666; text-align:center;}
+.gong_money_buy01 .form {height:310px;}
+.gong_money_buy01 .form .wrap {margin-bottom:10px; height:40px;}
+.gong_money_buy01 .form .wrap .tit {float:left; width:300px; height:40px; margin-right:10px;}
+.gong_money_buy01 .form .wrap .tit p {float:right; font:14px/40px "microsoft yahei";}
+.gong_money_buy01 .form .wrap .main {float:left;}
+.gong_money_buy01 .form .wrap .name p {font:14px/40px "microsoft yahei"; color:#666666;}
+.gong_money_buy01 .form .wrap .card .pic {float:left; width:34px; height:34px; margin-right:10px;}
+.gong_money_buy01 .form .wrap .card p {float:left; font:14px/40px "microsoft yahei"; color:#666666;}
+.gong_money_buy01 .form .wrap .inp {width:270px; height:36px; position:relative;}
+.gong_money_buy01 .form .wrap .inp input {display:block; width:248px; height:34px; padding:0 10px; border:1px solid #dedede; color:#666;}
+.gong_money_buy01 .form .wrap .inp span {font:14px/36px "microsoft yahei"; color:#666; position:absolute; right:10px; top:0;}
+.gong_money_buy01 .form .wrap .rate span {float:left; font:14px/40px "microsoft yahei"; color:#666666; margin-right:10px;}
+.gong_money_buy01 .form .wrap .rate span.line {text-decoration:line-through;}
+.gong_money_buy01 .form .wrap .sublime {display:block; width:270px; height:40px; border-radius:4px; background-color:#ea2a2a; font:18px/40px "microsoft yahei"; color:#fff; text-align:center; letter-spacing:10px;}
+/*购买成功*/
+.gong_money_buy02 {width:900px; height:470px; margin:50px auto; display:none;}
+.gong_money_buy02 .wran {font:14px/1.4 "microsoft yahei"; color:#666666; text-align:center;}
+.gong_money_buy02 .form {height:320px;}
+.gong_money_buy02 .form .state {float:left; width:310px; height:300px; margin-right:20px;}
+.gong_money_buy02 .form .state .pic {float:right;}
+.gong_money_buy02 .form .info {float:left;}
+.gong_money_buy02 .form .info .news .happy {font:24px/1.6 "microsoft yahei"; color:#029902;}
+.gong_money_buy02 .form .info .news .buy {font:16px/1.6 "microsoft yahei"; color:#525252;}
+.gong_money_buy02 .form .info .news .buy span {color:#ff8800;}
+.gong_money_buy02 .form .info .time {margin-top:30px;}
+.gong_money_buy02 .form .info .time p {font:14px/2.4 "microsoft yahei"; color:#525252;}
+.gong_money_buy02 .form .info .know{display:block; width:230px; height:44px; background-color:#ea2a2a; border-radius:4px; font:18px/44px "microsoft yahei"; color:#fff; text-align:center; margin-top:60px;}
+/*开户流程*/
+/*common*/
+.gong_money_open_head {width:1086px; height:70px; margin-top:40px;}
+.gong_money_open_head li {float:left; width:33.33%;}
+.gong_money_open_head li h3 {font:18px/3.2 "microsoft yahei"; color:#e2e2e2; text-align:center;}
+.gong_money_open_head li .line {width:100%; height:3px; background-color:#e2e2e2; position:relative;}
+.gong_money_open_head li .line .circle {width:22px; height:22px; border-radius:100%; background-color:#e2e2e2; font:14px/22px "microsoft yahei"; color:#fff; text-align:center; position:absolute; top:-10px; left:47%;}
+.gong_money_open_head li.active h3 {color:#ff8800;}
+.gong_money_open_head li.active .line {background-color:#ff8800;}
+.gong_money_open_head li.active .line .circle {background-color:#ff8800;}
+.gong_money_open_form .wrap {height:40px; margin-bottom:10px;}
+.gong_money_open_form .wrap .tit {float:left; width:350px; height:40px; margin-right:10px;}
+.gong_money_open_form .wrap .tit .name {font:14px/40px "microsoft yahei"; color:#333333; float:right;}
+.gong_money_open_form .wrap .main {float:left;}
+.gong_money_open_form .wrap .main .inp {float:left;}
+.gong_money_open_form .wrap .main .info {width:250px; height:38px; padding:0 10px; border:1px solid #dedede; font-family:"microsoft yahei";}
+.gong_money_open_form .wrap .main .link_go {display:block; width:270px; height:40px; background-color:#ea2a2a; border-radius:4px; font:18px/40px "microsoft yahei"; color:#fff; text-align:center; margin-top:10px;}
+/*不同点*/
+.gong_money_open01 {padding:0 56px;}
+.gong_money_open02 {padding:0 56px;}
+.gong_money_open02 .choose_bank {margin-top:20px; margin-bottom:20px;}
+.gong_money_open02 .choose_bank .title {font:16px/3 "microsoft yahei"; color:#333333;}
+.gong_money_open02 .choose_bank .bank {width:1086px; height:100px; position:relative;}
+.gong_money_open02 .choose_bank .bank_in {width:1120px; position:absolute; top:0; left:0; background-color:#fff; border-bottom:1px solid #ccc;}
+.gong_money_open02 .choose_bank .bank li {float:left; width:145px; height:34px; border-radius:2px; padding-top:6px; padding-left:25px; border:1px solid #b0c2e1; cursor:pointer; margin:0 10px 10px 0;}
+/*.gong_money_open02 .choose_bank .bank .more {float:left;width:170px;height:40px; border:none;font:16px/40px 'microsoft yahei';text-align:center;padding:0;margin:0 10px 10px 0;color:#666;}
+.gong_money_open02 .choose_bank .bank .more span {cursor: pointer;}
+.gong_money_open02 .choose_bank .bank .more:hover {border:none; color:#ea2a2a;}*/
+.gong_money_open02 .choose_bank .bank .more {position:absolute; bottom:-32px; left:20px; width:100px; height:30px; border:1px solid #ccc; border-top:1px solid #fff; font:14px/30px "microsoft yahei"; text-align:center; color:#666; box-shadow:0 2px 4px rgba(0,0,0,.2); cursor:pointer;}
+.gong_money_open02 .choose_bank .bank li:hover,.gong_money_open02 .choose_bank .bank .active {border:1px solid #fe585a;}
+.gong_money_open02 .gong_money_open_form .wrap .main .code {float:left; width:110px; height:40px; margin-left:10px; border:none; border-radius:4px; background-color:#ea2a2a; font:14px/40px "microsoft yahei"; color:#fff; text-align:center; cursor:pointer; outline:none;}
+.gong_money_open03,.gong_money_open02 {display:none;}
+.gong_money_open03 {padding:0 56px;}
+.gong_money_open03 .success_wrap {text-align:center; margin:100px 0;}
+.gong_money_open03 .success_wrap .success {display:inline-block;}
+.gong_money_open03 .success_wrap .success .pic {float:left; width:44px; height:44px; background:url("../imgs/gongfund/gong_money_open_success.png") no-repeat; margin-right:10px;}
+.gong_money_open03 .success_wrap .success .text {float:left; font:30px/44px "microsoft yahei"; color:#535353;}
+.gong_money_open03 .link {height:40px; text-align:center;}
+.gong_money_open03 .link .buy {display:inline-block; width:210px; height:38px; border-radius:4px; background-color:#ffffff; border:1px solid #e1e1e1; font:16px/40px "microsoft yahei"; text-align:center; color:#535353; margin-right:24px;}
+.gong_money_open03 .link .test {display:inline-block; width:140px; height:40px; border-radius:4px; background-color:#ea2a2a; font:16px/40px "microsoft yahei"; text-align:center; color:#fff;}
+
+/*修改交易密码*/
+.gong_changepass {margin-top:60px;}
+.gong_changepass .wrap .tel {font:14px/40px "microsoft yahei"; color:#666666;}
+.gong_changepass .wrap .main .code {float:left; width:110px; height:40px; margin-left:10px; border:none; border-radius:4px; background-color:#ea2a2a; font:14px/40px "microsoft yahei"; color:#fff; text-align:center; cursor:pointer; outline:none;}
+
+/*===================  公募基金测评     ================*/
+.gong_test {width:1130px; padding:0 35px 1px; background-color:#fff; margin:0 auto 40px;}
+.gong_test .why {font:18px/3 "microsoft yahei"; color:#333333; border-bottom:1px solid #dddddd; padding-top:20px;}
+.gong_test .tit_pic {width:100%; padding-top:20px;}
+.gong_test .tit_pic .wrap {float:left; width:25%; height:183px; margin-right:-1px; border-right:1px solid #dddddd; text-align:center;}
+.gong_test .tit_pic .wrap:nth-last-child(1) {border-right:none;}
+.gong_test .tit_pic .wrap img {display:inline-block;}
+.gong_test .nice {font:26px/2 "microsoft yahei"; color:#333333; border-bottom:1px solid #dddddd; padding-top:20px;}
+.gong_test .info {font:14px/2 "microsoft yahei"; color:#8a8a8a; padding-top:10px;}
+.gong_test .wrap_test {padding:20px 0; border-bottom:1px solid #dddddd;}
+.gong_test .wrap_test h3 {font:18px/3 "microsoft yahei"; color:#000000;}
+.gong_test .wrap_test p {font:16px/3 "microsoft yahei"; color:#333333;}
+.gong_test .wrap_test p label {cursor:pointer;}
+.gong_test .wrap_test p.active { color:#ff6600;}
+.gong_test_end {display:block; width:190px; height:44px; background-color:#ea2a2a; border-radius:4px; margin:40px auto; font:16px/44px "microsoft yahei"; color:#fff; text-align:center;}
+.gong_test .wrap_test p input {display:none;}
+
+
+
+
+
+
+
+/*===================  公募基金公共的弹窗     ================*/
+.gong_tips_pop {width:100%; height:100%; background:rgba(0,0,0,.5); position:fixed; top:0; left:0; z-index:999; display:none;}
+.gong_tips_pop_in {width:400px; height:210px; border-radius:4px; background:#fff; position:absolute; top:0; bottom:0; left:0; right:0; margin:auto; overflow:hidden;}
+.gong_tips_pop .head {height:50px; padding:0 20px; background-color:#f35557; position:relative;}
+.gong_tips_pop .head .tit {font:18px/50px "microsoft yahei"; color:#fff;}
+.gong_tips_pop .head .close {font:20px/50px "microsoft yahei"; color:#fff; position:absolute; top:0; right:20px; cursor:pointer;}
+.gong_tips_pop .center {height:105px; text-align:center;}
+.gong_tips_pop .center .pic {display:inline-block; padding:35px 0;}
+.gong_tips_pop .center .pic img {float:left; margin-right:10px;}
+.gong_tips_pop .center .pic .text {float:left; font:22px/34px "microfost yahei"; color:#535353;}
+.gong_tips_pop .center .password {display:inline-block; width:350px; height:36px; font:14px/36px "microsoft yahei"; color:#666666; margin-top:35px;}
+.gong_tips_pop .center .password .tit {float:left;}
+.gong_tips_pop .center .password .inp {float:left; display:block; width:180px; height:34px; padding:0 10px; border:1px solid #dedede; margin:0 10px;}
+.gong_tips_pop .center .password .forget {float:left; color:#3d9fe1;}
+.gong_tips_pop .foot {text-align:center;}
+.gong_tips_pop .foot .link {display:inline-block; width:100px;height:36px; border-radius:2px; background-color:#ea2a2a; font:14px/36px "microsoft yahei"; color:#fff; text-align:center; letter-spacing:2px; margin:0 auto;}
+
+
+
 
 
 
@@ -695,20 +948,3 @@
 .Error_404 .btn_404 { display: inline-block; height: 50px; width: 180px; font: 20px/50px "microsoft yahei"; color: #FFFFFF; text-align: center;}
 .Error_404 .home { background-color: #ff8a00; margin-right: 25px;}
 .Error_404 .high { background-color: #c2151f;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
