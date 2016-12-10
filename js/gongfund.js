@@ -34,6 +34,29 @@ $(function(){
 			}
 		})
 	})(jQuery);
+	(function(){
+		// 公募基金赎回，银行卡操作
+		function showbox(){
+			$(".gong_atoneback_in .form .wrap .content .box").css("display","block");
+		}
+		function hidebox(){
+			$(".gong_atoneback_in .form .wrap .content .box").css("display","none");
+		}
+		$(".gong_atoneback_in .form .wrap .content .tips").on("click",function(event){
+			event.stopPropagation();
+			showbox();
+		})
+		$(".gong_atoneback_in .form .wrap .content .card").on("click",function(){
+			//console.log($(this).html());
+			var aaa = $(this).clone();
+			$(".gong_atoneback_in .form .wrap .content .tips").html(aaa);
+			hidebox();
+			console.log($(this).find("img").attr("data-num"))
+		})
+		$(window).click(function(){
+			hidebox();
+		})
+	})(jQuery);
 	// 公募风险测评
 	(function(){
 		var sum = 0;
@@ -50,7 +73,8 @@ $(function(){
 	    		+ parseInt( $('.gong_test .wrap_test p input:radio[name="g"]:checked').val() )
 				+ parseInt( $('.gong_test .wrap_test p input:radio[name="h"]:checked').val() )
 	    		+ parseInt( $('.gong_test .wrap_test p input:radio[name="i"]:checked').val() )
-				+ parseInt( $('.gong_test .wrap_test p input:radio[name="j"]:checked').val() )
+				+ parseInt( $('.gong_test .wrap_test p input:radio[name="j"]:checked').val() );
+				alert(sum)
 			$('.gong_tips_pop').css({
 	    		display:'block'
 	    	});

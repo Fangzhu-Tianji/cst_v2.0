@@ -846,6 +846,35 @@
 .gong_money_buy02 .form .info .time {margin-top:30px;}
 .gong_money_buy02 .form .info .time p {font:14px/2.4 "microsoft yahei"; color:#525252;}
 .gong_money_buy02 .form .info .know{display:block; width:230px; height:44px; background-color:#ea2a2a; border-radius:4px; font:18px/44px "microsoft yahei"; color:#fff; text-align:center; margin-top:60px;}
+/*基金赎回*/
+.gong_atoneback_in {width:900px; height:470px; margin:50px auto; display:block;}
+.gong_atoneback_in .wran {font:14px/1.4 "microsoft yahei"; color:#666666; text-align:center;}
+.gong_atoneback_in .form {height:310px;}
+.gong_atoneback_in .form .wrap {margin-bottom:10px; height:40px;}
+.gong_atoneback_in .form .wrap .tit {float:left; width:300px; height:40px; margin-right:10px;}
+.gong_atoneback_in .form .wrap .tit p {float:right; font:14px/40px "microsoft yahei";}
+.gong_atoneback_in .form .wrap .main {float:left;}
+.gong_atoneback_in .form .wrap .card_main {position:relative;}
+.gong_atoneback_in .form .wrap .content {width:250px; /*height:38px;*/ background-color:#fff; border:1px solid #dedede; position:absolute; top:0; left:0; z-index:9; cursor:pointer;}
+.gong_atoneback_in .form .wrap .content .bugle {width:10px; height:5px; background:url("../imgs/gongfund/gong_atoneback_bugle.png") no-repeat; position:absolute; top:16px; right:6px;}
+.gong_atoneback_in .form .wrap .content .tips h2 {height:38px; width:100%; font:14px/38px "microsoft yahei"; color:#666; padding-left:10px;}
+.gong_atoneback_in .form .wrap .content .card {height:38px; width:100%;}
+.gong_atoneback_in .form .wrap .content .card .pic {float:left; padding:4px 0 0 10px; margin-right:10px;}
+.gong_atoneback_in .form .wrap .content .card p {float:left; font:14px/38px "microsoft yahei"; color:#666666;}
+.gong_atoneback_in .form .wrap .name p {font:14px/40px "microsoft yahei"; color:#666666;}
+.gong_atoneback_in .form .wrap .name .col {color:#ff6600;}
+.gong_atoneback_in .form .wrap .name .big {font-size:18px; color:#ea2a2a;}
+.gong_atoneback_in .form .wrap .back {width:400px; height:36px; position:relative;}
+.gong_atoneback_in .form .wrap .back input {float:left; display:block; font-family:"microsoft yahei"; width:248px; height:34px; padding:0 10px; border:1px solid #dedede; color:#666;}
+.gong_atoneback_in .form .wrap .back .whole {float:left; font:14px/36px "microsoft yahei"; color:#4f86e1; margin-left:10px;}
+.gong_atoneback_in .form .wrap .back_tip p {font:14px/1.6 "microsoft yahei"; color:#999999;}
+.gong_atoneback_in .form .wrap .back span {font:14px/36px "microsoft yahei"; color:#666; position:absolute; right:10px; top:0;}
+.gong_atoneback_in .form .wrap .inp {width:270px; height:36px; position:relative;}
+.gong_atoneback_in .form .wrap .inp input {display:block; width:248px; height:34px; padding:0 10px; border:1px solid #dedede; color:#666;}
+.gong_atoneback_in .form .wrap .inp span {font:14px/36px "microsoft yahei"; color:#666; position:absolute; right:10px; top:0;}
+.gong_atoneback_in .form .wrap .rate span {float:left; font:14px/40px "microsoft yahei"; color:#666666; margin-right:10px;}
+.gong_atoneback_in .form .wrap .rate span.line {text-decoration:line-through;}
+.gong_atoneback_in .form .wrap .sublime {display:block; width:270px; height:40px; border-radius:4px; background-color:#ea2a2a; font:18px/40px "microsoft yahei"; color:#fff; text-align:center;}
 /*开户流程*/
 /*common*/
 .gong_money_open_head {width:1086px; height:70px; margin-top:40px;}
@@ -909,8 +938,12 @@
 .gong_test_end {display:block; width:190px; height:44px; background-color:#ea2a2a; border-radius:4px; margin:40px auto; font:16px/44px "microsoft yahei"; color:#fff; text-align:center;}
 .gong_test .wrap_test p input {display:none;}
 
-
-
+/*===================  用户协议     ================*/
+.userAgreement { width: 1138px; padding: 0 30px; margin-top:40px; margin-bottom: 80px; border: 1px solid #e1e1e1;}
+.userAgreement .tit {font: bold 22px/5 "microsoft yahei"; color: #3b3b3b; text-align: center; border-bottom: 1px solid #e1e1e1;}
+.userAgreement h3 { font: bold 18px/1.2 "microsoft yahei"; color: #525252; border-left: 2px solid #ffc73e; padding-left: 10px; margin-top: 50px; margin-bottom: 10px;}
+.userAgreement p {font:14px/3 "microsoft yahei"; color: #8f8f8f;}
+.userAgreement h4 {font:14px/3 "microsoft yahei"; color: #525252;}
 
 
 
@@ -924,11 +957,12 @@
 .gong_tips_pop .center {height:105px; text-align:center;}
 .gong_tips_pop .center .pic {display:inline-block; padding:35px 0;}
 .gong_tips_pop .center .pic img {float:left; margin-right:10px;}
-.gong_tips_pop .center .pic .text {float:left; font:22px/34px "microfost yahei"; color:#535353;}
+.gong_tips_pop .center .pic .text {float:left; font:22px/34px "microsoft yahei"; color:#535353;}
 .gong_tips_pop .center .password {display:inline-block; width:350px; height:36px; font:14px/36px "microsoft yahei"; color:#666666; margin-top:35px;}
 .gong_tips_pop .center .password .tit {float:left;}
 .gong_tips_pop .center .password .inp {float:left; display:block; width:180px; height:34px; padding:0 10px; border:1px solid #dedede; margin:0 10px;}
 .gong_tips_pop .center .password .forget {float:left; color:#3d9fe1;}
+.gong_tips_pop .center .write {font:22px/105px "microsoft yahei"; color:#555; text-align:center;}
 .gong_tips_pop .foot {text-align:center;}
 .gong_tips_pop .foot .link {display:inline-block; width:100px;height:36px; border-radius:2px; background-color:#ea2a2a; font:14px/36px "microsoft yahei"; color:#fff; text-align:center; letter-spacing:2px; margin:0 auto;}
 

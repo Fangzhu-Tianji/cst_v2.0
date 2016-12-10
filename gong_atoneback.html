@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>财视通_基金赎回</title>
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<link type="image/x-icon" rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/style.css" />
+<script src="js/jquery.min.js"></script>
+<script src="js/global.js"></script>
+<script src="js/gongfund.js"></script>
+</head>
+<body>
+<div class="gong_money">
+    <div class="gong_money_head clearfix">
+        <h2 class="tit">基金赎回</h2>
+    </div><!-- E_头部 -->
+    <div class="gong_atoneback">
+        <div class="gong_atoneback_in">
+            <div class="form">
+                <div class="wrap clearfix">
+                    <div class="tit">
+                        <p>产品名称：</p>
+                    </div>
+                    <div class="main">
+                        <div class="name">
+                            <p>万家共赢壹号投资基金（233009）</p>
+                        </div>
+                    </div>
+                </div><!-- wrap -->
+                <div class="wrap clearfix">
+                    <div class="tit">
+                        <p>赎回到：</p>
+                    </div>
+                    <div class="main card_main">
+                        <div class="content">
+                            <div class="bugle"></div>
+                            <div class="tips">
+                                <h2>请选择您的银行卡</h2>
+                            </div>
+                            <div class="box" style="display:none;">
+                                <div class="card clearfix">
+                                    <div class="pic">
+                                        <img src="imgs/gongfund/banks/100.png" width="30" height="30" data-num="100">
+                                    </div>
+                                    <p>****    ****    ****    3210</p>
+                                </div>
+                                <div class="card clearfix">
+                                    <div class="pic">
+                                        <img src="imgs/gongfund/banks/101.png" width="30" height="30" data-num="101">
+                                    </div>
+                                    <p>****    ****    ****    3220</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- wrap -->
+                <div class="wrap clearfix">
+                    <div class="tit">
+                        <p>赎回到账：</p>
+                    </div>
+                    <div class="main">
+                        <div class="name">
+                            <p>预计<span class="col">12月06日（星期二）</span class="col">确认赎回，<span>12月08日（星期四）</span>到账</p>
+                        </div>
+                    </div>
+                </div><!-- wrap -->
+                <div class="wrap clearfix">
+                    <div class="tit">
+                        <p>可用份额：</p>
+                    </div>
+                    <div class="main">
+                        <div class="name">
+                            <p><span class="big">72.66</span>份</p>
+                        </div>
+                    </div>
+                </div><!-- wrap -->
+                <div class="wrap clearfix" style="height:80px;">
+                    <div class="tit">
+                        <p>赎回到账：</p>
+                    </div>
+                    <div class="main">
+                        <div class="back clearfix">
+                            <input type="text" />
+                            <a href="javascript:;" class="whole">全部赎回</a>
+                        </div>
+                        <div class="back_tip">
+                            <p>可用份额不超过100.00份的时候，只能全部赎回。</p>
+                            <p>最低赎回份额1.00份，若申请后不足1.00份请全部赎回。</p>
+                        </div>
+                    </div>
+                </div><!-- wrap -->
+                <div class="wrap clearfix">
+                    <div class="tit">
+                        <p>交易密码：</p>
+                    </div>
+                    <div class="main">
+                        <div class="back clearfix">
+                            <input type="text" placeholder="请输入您的交易密码" />
+                            <a href="javascript:;" class="whole">忘记交易密码</a>
+                        </div>
+                    </div>
+                </div><!-- wrap -->
+                <div class="wrap clearfix" style="padding-top:20px;">
+                    <div class="tit">
+                    </div>
+                    <div class="main">
+                        <a class="sublime" href="javascript:;" onclick="showpop($('.gong_tips_pop'))">下一步</a>
+                    </div>
+                </div><!-- wrap -->
+            </div>
+        </div>
+    </div><!-- E_gong_atoneback -->
+</div>
+<!-- S_公募购买页弹窗 -->
+<div class="gong_tips_pop">
+	<div class="gong_tips_pop_in">
+        <div class="head">
+            <h2 class="tit">提交成功</h2>
+            <span class="close" onclick="hidepop($('.gong_tips_pop'))">×</span>
+        </div>
+        <div class="center">
+            <h2 class="write">赎回申请已成功提交</h2>
+        </div>
+        <div class="foot">
+            <a class="link" href="javascript:;" onclick="hidepop($('.gong_tips_pop'))">确定</a>
+        </div>
+	</div>
+</div>
+<!-- E_公募购买页弹窗 -->
+</body>
+</html>
